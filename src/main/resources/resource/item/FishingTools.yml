@@ -1,0 +1,18 @@
+HandmadeFishingRod:
+  Material: Stick
+  DisplayName: §eHandmade fishing rod
+  CustomAttrs:
+  - 'ToolType : 釣竿'
+  - 'FishingRodsTypes : 手工'
+NoviceFishingRod:
+  Material: Stick
+  DisplayName: §eNovice fishing rod
+  CustomAttrs:
+  - 'ToolType : 釣竿'
+  - 'FishingRodsTypes : 新手'
+VeteranFishingRod:
+  Material: Stick
+  DisplayName: §eVeteran fishing rod
+  CustomAttrs:
+  - 'ToolType : 釣竿'
+  - 'FishingRodsTypes : 老手'

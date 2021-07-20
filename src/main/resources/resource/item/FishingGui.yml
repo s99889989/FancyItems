@@ -1,0 +1,102 @@
+0:
+  Material: Stick
+  CustomModelData: 0
+  DisplayName: '§e0'
+  Lore:
+  - '§f0'
+1:
+  Material: Stick
+  CustomModelData: 0
+  DisplayName: '§e1'
+  Lore:
+  - '§f1'
+2:
+  Material: Stick
+  CustomModelData: 0
+  DisplayName: '§e2'
+  Lore:
+  - '§f2'
+3:
+  Material: Stick
+  CustomModelData: 0
+  DisplayName: '§e3'
+  Lore:
+  - '§f3'
+4:
+  Material: Stick
+  CustomModelData: 0
+  DisplayName: '§e4'
+  Lore:
+  - '§f4'
+5:
+  Material: Stick
+  CustomModelData: 0
+  DisplayName: '§e5'
+  Lore:
+  - '§f5'
+6:
+  Material: Stick
+  CustomModelData: 0
+  DisplayName: '§e6'
+  Lore:
+  - '§f6'
+7:
+  Material: Stick
+  CustomModelData: 0
+  DisplayName: '§e7'
+  Lore:
+  - '§f7'
+8:
+  Material: Stick
+  CustomModelData: 0
+  DisplayName: '§e8'
+  Lore:
+  - '§f8'
+9:
+  Material: Stick
+  CustomModelData: 0
+  DisplayName: '§e9'
+  Lore:
+  - '§f9'
+Cancel:
+  Material: Stick
+  CustomModelData: 0
+  DisplayName: '§e取消'
+  Lore:
+    - '§f取消'
+Define:
+  Material: Stick
+  CustomModelData: 0
+  DisplayName: '§e確定'
+  Lore:
+    - '§f確定'
+StopFishing:
+  Material: Stick
+  CustomModelData: 0
+  DisplayName: '§e停止釣魚'
+  Lore:
+    - '§f停止釣魚'
+StartFishing:
+  Material: Stick
+  CustomModelData: 0
+  DisplayName: '§e開始釣魚'
+  Lore:
+    - '§f開始釣魚'
+FishingBag:
+  Material: Stick
+  CustomModelData: 0
+  DisplayName: '§e打開包包'
+  Lore:
+    - '§f打開包包'
+FishingAction:
+  Material: Stick
+  CustomModelData: 0
+  DisplayName: '§e打開動作介面'
+  Lore:
+    - '§f打開動作介面'
+
+
+
+
+
+

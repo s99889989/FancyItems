@@ -1,0 +1,51 @@
+MenuName: 'Custom item menu'
+
+Items:
+  Type:
+    Default:
+      DisplayMaterial: Coal:400
+      ShowName: '§eMiscellaneous'
+      Lore:
+      - ''
+      - '§7Clutter area'
+      - '§7雜物'
+
+    Weapon:
+      DisplayMaterial: diamond_sword:0
+      ShowName: '§eWeapon'
+      Lore:
+      - ''
+      - '§7Attack equipment'
+      - '§7攻擊裝備'
+
+    Armor:
+      DisplayMaterial: shield:0
+      ShowName: '§eArmor'
+      Lore:
+      - ''
+      - '§7Defensive equipment'
+      - '§7防禦裝備'
+
+    Potion:
+      DisplayMaterial: POTION:0
+      ShowName: '§ePotion'
+      Lore:
+      - ''
+      - '§7Potion area'
+      - '§7藥水'
+
+    SkillEffect:
+      DisplayMaterial: FEATHER:2
+      ShowName: '§eSkillEffect'
+      Lore:
+      - ''
+      - '§7Skill Effect'
+      - '§7技能效果'
+
+    FishingTools:
+      DisplayMaterial: Stick:0
+      ShowName: '§eFishing tools'
+      Lore:
+        - ''
+        - '§7Fishing tools'
+        - '§7釣魚工具'
