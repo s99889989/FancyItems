@@ -1,7 +1,7 @@
 package com.daxton.fancyitmes.command;
 
-import com.daxton.fancycore.api.config.SearchConfig;
 import com.daxton.fancycore.api.config.SearchConfigFile;
+import com.daxton.fancycore.api.config.SearchConfigMap;
 import com.daxton.fancyitmes.config.FileConfig;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 
 public class TabCommand implements TabCompleter {
 
-    private final String[] subCommands = {"give"};
+    private final String[] subCommands = {"reload", "give", "edit"};
 
     @Override
     public List<String> onTabComplete(@NotNull CommandSender sender, @NotNull Command command, @NotNull String alias, String[] args){
@@ -26,21 +26,31 @@ public class TabCommand implements TabCompleter {
             commandList = Arrays.stream(subCommands).filter(s -> s.startsWith(args[0])).collect(Collectors.toList());
         }
         if (args.length == 2){
-            commandList = getPlayerNameList().stream().filter(s -> s.startsWith(args[1])).collect(Collectors.toList());
+            if(args[0].equals("give")){
+                commandList = getPlayerNameList().stream().filter(s -> s.startsWith(args[1])).collect(Collectors.toList());
+            }
         }
         if (args.length == 3){
-            List<String> itmeTypeLst = SearchConfigFile.nameList(FileConfig.config_Map, "item/", true);
-            commandList = itmeTypeLst.stream().filter(s -> s.startsWith(args[2])).collect(Collectors.toList());
-        }
-        if (args.length == 4){
-            if(FileConfig.config_Map.get("item/"+args[2]+".yml") != null){
-                FileConfiguration itemConfig = FileConfig.config_Map.get("item/"+args[2]+".yml");
-                commandList = SearchConfig.sectionList(itemConfig, "").stream().filter(s -> s.startsWith(args[3])).collect(Collectors.toList());
+            if(args[0].equals("give")){
+                List<String> itmeTypeLst = SearchConfigMap.fileNameList(FileConfig.config_Map, "item/", true);
+                commandList = itmeTypeLst.stream().filter(s -> s.startsWith(args[2])).collect(Collectors.toList());
             }
 
         }
+        if (args.length == 4){
+            if(args[0].equals("give")){
+                if(FileConfig.config_Map.get("item/"+args[2]+".yml") != null){
+                    FileConfiguration itemConfig = FileConfig.config_Map.get("item/"+args[2]+".yml");
+                    commandList = SearchConfigFile.sectionList(itemConfig, "").stream().filter(s -> s.startsWith(args[3])).collect(Collectors.toList());
+                }
+            }
+
+
+        }
         if (args.length == 5){
-            commandList = getAmount().stream().filter(s -> s.startsWith(args[4])).collect(Collectors.toList());
+            if(args[0].equals("give")){
+                commandList = getAmount().stream().filter(s -> s.startsWith(args[4])).collect(Collectors.toList());
+            }
         }
 
         return commandList;

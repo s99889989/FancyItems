@@ -1,8 +1,9 @@
 package com.daxton.fancyitmes;
 
+import static com.daxton.fancyitmes.config.FileConfig.languageConfig;
 
+import com.daxton.fancyitmes.config.FileConfig;
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
 
 public class DependPlugins {
 
@@ -11,12 +12,12 @@ public class DependPlugins {
         FancyItems fancyItems = FancyItems.fancyItems;
 
         if (Bukkit.getServer().getPluginManager().getPlugin("FancyCore") != null && Bukkit.getPluginManager().isPluginEnabled("FancyCore")){
-            fancyItems.getLogger().info(ChatColor.GREEN+"Loaded FancyCore");
+            //設定檔
+            FileConfig.execute();
+            fancyItems.getLogger().info(languageConfig.getString("LogMessage.LoadFancyCore"));
         }else {
-            fancyItems.getLogger().severe("*** FancyCore is not installed or not enabled. ***");
-            fancyItems.getLogger().severe("*** FancyItemsy will be disabled. ***");
-            fancyItems.getLogger().severe("*** FancyCore未安裝或未啟用。 ***");
-            fancyItems.getLogger().severe("*** FancyItems將被卸載。 ***");
+            fancyItems.getLogger().info("§4*** FancyCore is not installed or not enabled. ***");
+            fancyItems.getLogger().info("§4*** FancyItems will be disabled. ***");
             return false;
         }
 

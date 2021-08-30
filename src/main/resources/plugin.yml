@@ -1,7 +1,7 @@
 name: FancyItems
 version: ${version}
 main: com.daxton.fancyitmes.FancyItems
-api-version: 1.17
+api-version: 1.13
 prefix: FancyItems
 softdepend: [FancyCore]
 authors: [ s99889989 ]
@@ -9,4 +9,4 @@ description: FancyItems
 commands:
   fancyitems:
     description: Basic instructions.
-    aliases: fi
+    aliases: fitems

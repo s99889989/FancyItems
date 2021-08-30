@@ -1,0 +1,21 @@
+Buoy_Egg:
+  Material: Bone
+  DisplayName: §e雞蛋浮標
+  CustomModelData: 51
+  CustomAttrs:
+  - 'ToolType : 浮標'
+  - 'BuoyType : 雞蛋'
+Buoy_Robber_Egg:
+  Material: Bone
+  DisplayName: §e盜蟲卵浮標
+  CustomModelData: 52
+  CustomAttrs:
+  - 'ToolType : 浮標'
+  - 'BuoyType : 盜蟲卵'
+Buoy_Platinum_Star:
+  Material: Bone
+  DisplayName: §e白金浮標
+  CustomModelData: 53
+  CustomAttrs:
+  - 'ToolType : 浮標'
+  - 'BuoyType : 白金之星'

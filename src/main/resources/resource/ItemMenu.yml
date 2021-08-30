@@ -1,51 +1,313 @@
 MenuName: 'Custom item menu'
 
-Items:
-  Type:
-    Default:
-      DisplayMaterial: Coal:400
-      ShowName: '§eMiscellaneous'
-      Lore:
+ItemType:
+
+  Default:
+    Material: Coal
+    CustomModelData: 400
+    DisplayName: '§eMiscellaneous'
+    Lore:
       - ''
       - '§7Clutter area'
       - '§7雜物'
+      - '§eThere are {amount} items of this type.'
 
-    Weapon:
-      DisplayMaterial: diamond_sword:0
-      ShowName: '§eWeapon'
-      Lore:
+  Fish:
+    Material: TROPICAL_FISH
+    CustomModelData: 0
+    DisplayName: '§eFish'
+    Lore:
       - ''
-      - '§7Attack equipment'
-      - '§7攻擊裝備'
+      - '§7Fish'
+      - '§7魚'
+      - '§eThere are {amount} items of this type.'
 
-    Armor:
-      DisplayMaterial: shield:0
-      ShowName: '§eArmor'
-      Lore:
+  FishingBuoy:
+    Material: Bone
+    CustomModelData: 51
+    DisplayName: '§eFishing buoy'
+    Lore:
       - ''
-      - '§7Defensive equipment'
-      - '§7防禦裝備'
+      - '§7Fishing buoy'
+      - '§7浮標'
+      - '§eThere are {amount} items of this type.'
 
-    Potion:
-      DisplayMaterial: POTION:0
-      ShowName: '§ePotion'
-      Lore:
+  FishingGui:
+    Material: Gunpowder
+    CustomModelData: 1
+    DisplayName: '§eFishing buoy'
+    Lore:
+      - ''
+      - '§7Fishing gui'
+      - '§7魚介面'
+      - '§eThere are {amount} items of this type.'
+
+  FishingRod:
+    Material: Bone
+    CustomModelData: 1
+    DisplayName: '§eFishing rod'
+    Lore:
+      - ''
+      - '§7Fishing rod'
+      - '§7釣竿'
+      - '§eThere are {amount} items of this type.'
+
+  Potion:
+    Material: POTION
+    CustomModelData: 0
+    DisplayName: '§ePotion'
+    Lore:
       - ''
       - '§7Potion area'
       - '§7藥水'
+      - '§eThere are {amount} items of this type.'
 
-    SkillEffect:
-      DisplayMaterial: FEATHER:2
-      ShowName: '§eSkillEffect'
-      Lore:
+  SkillEffect:
+    Material: FEATHER
+    CustomModelData: 2
+    DisplayName: '§eSkillEffect'
+    Lore:
       - ''
       - '§7Skill Effect'
       - '§7技能效果'
+      - '§eThere are {amount} items of this type.'
 
-    FishingTools:
-      DisplayMaterial: Stick:0
-      ShowName: '§eFishing tools'
-      Lore:
-        - ''
-        - '§7Fishing tools'
-        - '§7釣魚工具'
+  Weapon_Knife:
+    Material: Lime_Dye
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Weapon-Knife'
+      - '§7武器-短劍'
+      - '§eThere are {amount} items of this type.'
+
+  Weapon_Sword:
+    Material: Yellow_Dye
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Weapon-Sword'
+      - '§7武器-長劍'
+      - '§eThere are {amount} items of this type.'
+
+  Weapon_Bow:
+    Material: Magenta_Dye
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Weapon-Bow'
+      - '§7武器-弓'
+      - '§eThere are {amount} items of this type.'
+
+  Weapon_Rod:
+    Material: Orange_Dye
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Weapon-Rod'
+      - '§7武器-法杖'
+      - '§eThere are {amount} items of this type.'
+
+  Weapon_Club:
+    Material: White_Dye
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Weapon-Club'
+      - '§7武器-鈍器'
+      - '§eThere are {amount} items of this type.'
+
+  Weapon_Axe:
+    Material: Purple_Dye
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Weapon-Axe'
+      - '§7武器-斧'
+      - '§eThere are {amount} items of this type.'
+
+  Weapon_Spear:
+    Material: Ink_Sac
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Weapon-Spear'
+      - '§7武器-長矛'
+      - '§eThere are {amount} items of this type.'
+
+  Weapon_Jur:
+    Material: Slime_Ball
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Weapon-Jur'
+      - '§7武器-拳刃'
+      - '§eThere are {amount} items of this type.'
+
+  Weapon_Knuckle:
+    Material: GlowStone_Dust
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Weapon-Knuckle'
+      - '§7武器-拳套'
+      - '§eThere are {amount} items of this type.'
+
+  Weapon_Book:
+    Material: Lapis_Lazuli
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Weapon-Book'
+      - '§7武器-書'
+      - '§eThere are {amount} items of this type.'
+
+  Weapon_Musical:
+    Material: Cyan_Dye
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Weapon-Musical'
+      - '§7武器-樂器'
+      - '§eThere are {amount} items of this type.'
+
+  Weapon_Whip:
+    Material: Light_Gray_Dye
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Weapon-Whip'
+      - '§7武器-鞭子'
+      - '§eThere are {amount} items of this type.'
+
+  Weapon_Tool:
+    Material: Gray_Dye
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Weapon-Tool'
+      - '§7武器-工具'
+      - '§eThere are {amount} items of this type.'
+
+  Armor_Armor:
+    Material: Iron_Chestplate
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Armor-Armor'
+      - '§7防具-盔甲'
+      - '§eThere are {amount} items of this type.'
+
+  Armor_Pants:
+    Material: Iron_leggings
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Armor-Pants'
+      - '§7防具-褲子'
+      - '§eThere are {amount} items of this type.'
+
+  Armor_Shoes:
+    Material: Iron_Boots
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Armor-Shoes'
+      - '§7防具-鞋子'
+      - '§eThere are {amount} items of this type.'
+
+  Armor_Accessories:
+    Material: Brown_Dye
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Armor-Accessories'
+      - '§7防具-飾品'
+      - '§eThere are {amount} items of this type.'
+
+  Armor_Headdress:
+    Material: Green_Dye
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Armor-Headdress'
+      - '§7防具-頭飾'
+      - '§eThere are {amount} items of this type.'
+
+  Armor_Facial:
+    Material: Red_Dye
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Armor-Facial'
+      - '§7防具-臉部'
+      - '§eThere are {amount} items of this type.'
+
+  Armor_Mouth:
+    Material: Black_Dye
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Armor-Mouth'
+      - '§7防具-嘴部'
+      - '§eThere are {amount} items of this type.'
+
+  Armor_Back:
+    Material: Sugar
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Armor-Back'
+      - '§7防具-背部'
+      - '§eThere are {amount} items of this type.'
+
+  Armor_Tail:
+    Material: Scute
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Armor-Tail'
+      - '§7防具-尾部'
+      - '§eThere are {amount} items of this type.'
+
+  Weapon_Artifact:
+    Material: Pink_Dye
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Weapon-Artifact'
+      - '§7武器-神器'
+      - '§eThere are {amount} items of this type.'
+
+  Armor_Artifact:
+    Material: Pink_Dye
+    CustomModelData: 0
+    DisplayName: '§e'
+    Lore:
+      - ''
+      - '§7Armor-Artifact'
+      - '§7防具-神器'
+      - '§eThere are {amount} items of this type.'

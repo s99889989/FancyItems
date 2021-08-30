@@ -1,5 +1,5 @@
 CustomAttributes:
-  #關鍵字無大小寫分別，均被轉成小寫。
-  #The keywords are not case-sensitive and are converted to lowercase.
   ToolType: '§7工具類型'
   FishingRodsTypes: '§7釣竿種類'
+  BuoyType: '§7浮標種類'
+  

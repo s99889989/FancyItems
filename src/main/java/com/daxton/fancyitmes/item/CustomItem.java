@@ -4,11 +4,12 @@ import com.daxton.fancycore.api.item.CItem;
 import com.daxton.fancyitmes.config.FileConfig;
 import org.bukkit.Material;
 import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
 public class CustomItem {
 
-    public static ItemStack valueOf(String itemType, String itemID, int amount){
+    public static ItemStack valueOf3(String itemType, String itemID, int amount){
         ItemStack newItemStack = new ItemStack(Material.STONE, amount);
         FileConfiguration itemConfig = FileConfig.config_Map.get("item/"+itemType+".yml");
         if(itemConfig.contains(itemID+".Material")){
@@ -102,7 +103,7 @@ public class CustomItem {
         return newItemStack;
     }
 
-    public static ItemStack valueOf2(String itemType, String itemID, int amount){
+    public static ItemStack valueOf(Player player, String itemType, String itemID, int amount){
         if(FileConfig.config_Map.get("item/"+itemType+".yml") == null){
             return new ItemStack(Material.STONE, amount);
         }
@@ -131,7 +132,7 @@ public class CustomItem {
         //設定物品的動作
         cItem.setAction(itemConfig.getStringList(itemID+".Action"));
         //設定物的頭值
-        cItem.setHeadValue(itemConfig.getString(itemID+".HeadValue"));
+        //cItem.setHeadValue(itemConfig.getString(itemID+".HeadValue"));
         //設定物品的右鍵CD
         ItemProject2.setCoolDownRightClick(cItem, itemConfig, itemID);
         //設定物品的左鍵CD

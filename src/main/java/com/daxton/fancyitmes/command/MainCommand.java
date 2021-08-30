@@ -1,10 +1,12 @@
 package com.daxton.fancyitmes.command;
-
-import com.daxton.fancycore.api.config.SearchConfig;
 import com.daxton.fancycore.api.config.SearchConfigFile;
-import com.daxton.fancycore.api.conversion.StringConversion;
+import com.daxton.fancycore.api.config.SearchConfigMap;
+import com.daxton.fancycore.api.character.conversion.StringConversion;
+import com.daxton.fancyitmes.FancyItems;
 import com.daxton.fancyitmes.config.FileConfig;
+import com.daxton.fancyitmes.gui.MainMenu;
 import com.daxton.fancyitmes.item.CustomItem;
+import com.daxton.fancyitmes.task.Reload;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -12,7 +14,7 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
-
+import static com.daxton.fancyitmes.config.FileConfig.languageConfig;
 
 public class MainCommand implements CommandExecutor {
 
@@ -22,8 +24,30 @@ public class MainCommand implements CommandExecutor {
             return true;
         }
 
-        if(args[0].equalsIgnoreCase("give") && args.length == 5) {
+        if(args.length == 5 && args[0].equalsIgnoreCase("give")) {
             giveCommaned(args);
+        }
+
+        if(args.length == 1) {
+
+            if(args[0].equalsIgnoreCase("reload")){
+                Reload.execute();
+                if(sender instanceof Player){
+                    Player player = (Player) sender;
+                    player.sendMessage(languageConfig.getString("OpMessage.Reload")+"");
+                }
+                FancyItems.fancyItems.getLogger().info(languageConfig.getString("LogMessage.Reload"));
+            }
+            if(args[0].equalsIgnoreCase("reload")){
+
+            }
+        }
+
+        if(args.length == 1 && args[0].equalsIgnoreCase("edit")) {
+            if(sender instanceof Player){
+                Player player = (Player) sender;
+                MainMenu.open(player);
+            }
         }
 
         return true;
@@ -35,19 +59,19 @@ public class MainCommand implements CommandExecutor {
             return;
         }
         String itemType = args[2];
-        if(!SearchConfigFile.nameList(FileConfig.config_Map, "item/", true).contains(itemType)){
+        if(!SearchConfigMap.fileNameList(FileConfig.config_Map, "item/", true).contains(itemType)){
             return;
         }
         String itmeID = args[3];
         if(FileConfig.config_Map.get("item/"+itemType+".yml") != null){
             FileConfiguration itemConfig = FileConfig.config_Map.get("item/"+args[2]+".yml");
-            if(!SearchConfig.sectionList(itemConfig, "").contains(itmeID)){
+            if(!SearchConfigFile.sectionList(itemConfig, "").contains(itmeID)){
                 return;
             }
         }
         int amount = StringConversion.getInt(1 ,args[4]);
         Player player = TabCommand.getPlayerNameMap().get(playerName);
-        ItemStack itemStack = CustomItem.valueOf2(itemType, itmeID, amount);
+        ItemStack itemStack = CustomItem.valueOf(player, itemType, itmeID, amount);
         player.getInventory().addItem(itemStack);
     }
 
