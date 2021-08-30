@@ -1,0 +1,21 @@
+HandmadeFishingRod:
+  Material: Bone
+  DisplayName: §eHandmade fishing rod
+  CustomModelData: 1
+  CustomAttrs:
+  - 'ToolType : 釣竿'
+  - 'FishingRodsTypes : 手工'
+NoviceFishingRod:
+  Material: Bone
+  DisplayName: §eNovice fishing rod
+  CustomModelData: 2
+  CustomAttrs:
+  - 'ToolType : 釣竿'
+  - 'FishingRodsTypes : 新手'
+VeteranFishingRod:
+  Material: Bone
+  DisplayName: §eVeteran fishing rod
+  CustomModelData: 3
+  CustomAttrs:
+  - 'ToolType : 釣竿'
+  - 'FishingRodsTypes : 老手'

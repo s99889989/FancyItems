@@ -1,0 +1,35 @@
+light1:
+  Material: FEATHER
+  CustomModelData: 2
+coal:
+  Material: FEATHER
+  CustomModelData: 1
+LaserBeam:
+  Material: FEATHER
+  CustomModelData: 3
+Arrow1:
+  Material: FEATHER
+  CustomModelData: 398
+  DisplayName: §eArrow
+LawTown:
+  Material: FEATHER
+  CustomModelData: 400
+  RemoveItemFlags: true
+  DisplayName: §e法陣
+  Lore:
+  - ''
+Archer_Anklesnare:
+  Material: FEATHER
+  CustomModelData: 397
+  RemoveItemFlags: true
+  DisplayName: §e定位陷阱
+Archer_Anklesnare2:
+  Material: FEATHER
+  CustomModelData: 396
+  RemoveItemFlags: true
+  DisplayName: §e定位陷阱啟動
+Ice:
+  Material: FEATHER
+  CustomModelData: 402
+  RemoveItemFlags: true
+  DisplayName: §e冰塊

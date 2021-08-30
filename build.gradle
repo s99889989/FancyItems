@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+}
+
+group 'com.daxton'
+version '1.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        name = 'spigotmc-repo'
+        url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+    }
+    maven {
+        name = 'papermc-repo'
+        url = 'https://papermc.io/repo/repository/maven-public/'
+    }
+    maven {
+        name = 'sonatype'
+        url = 'https://oss.sonatype.org/content/groups/public/'
+    }
+}
+
+dependencies {
+    implementation 'org.jetbrains:annotations:20.1.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+
+    compileOnly 'com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT'
+
+    compileOnly fileTree(dir: 'lib', include: ['FancyCore-1.1.8.jar'])
+
+
+}
+
+processResources {
+    filteringCharset = "UTF-8"
+    expand(project.properties)
+    inputs.property("version", version)
+}
+
+compileJava.options.encoding = 'UTF-8'
