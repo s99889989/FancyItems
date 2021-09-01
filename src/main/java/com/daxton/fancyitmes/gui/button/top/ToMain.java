@@ -1,6 +1,7 @@
 package com.daxton.fancyitmes.gui.button.top;
 
-import com.daxton.fancycore.FancyCore;
+
+import com.daxton.fancycore.api.gui.GUI;
 import com.daxton.fancycore.api.gui.button.GuiAction;
 import com.daxton.fancyitmes.gui.MainMenu;
 import org.bukkit.entity.Player;
@@ -17,7 +18,8 @@ public class ToMain implements GuiAction {
 
 	public void execute(ClickType clickType, InventoryAction action, int slot){
 		if(clickType == ClickType.LEFT){
-			MainMenu.open(player);
+
+			MainMenu.open2(player);
 		}
 	}
 

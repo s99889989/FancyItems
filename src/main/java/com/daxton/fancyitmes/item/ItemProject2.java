@@ -1,51 +1,48 @@
 package com.daxton.fancyitmes.item;
 
-
-
 import com.daxton.fancycore.api.item.CItem;
+import com.daxton.fancyitmes.FancyItems;
 import com.daxton.fancyitmes.config.FileConfig;
+import com.daxton.fancyitmes.manager.ManagerItems;
 import org.bukkit.configuration.file.FileConfiguration;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
-
+import java.util.Set;
 
 public class ItemProject2 {
 
     //設定物品自訂屬性
     public static void setCustomAttrs(CItem cItem, FileConfiguration itemConfig, String itemID){
-        List<String> itemCustomAttrs = itemConfig.getStringList(itemID+".CustomAttrs");
 
+        if(!itemConfig.contains(itemID+".CustomValue")){
+            return;
+        }
+
+        Set<String> itemCustomAttrs = itemConfig.getConfigurationSection(itemID + ".CustomValue").getKeys(false);
         List<String> itemLore = new ArrayList<>();
 
-        for(String s : itemCustomAttrs){
-            String[] strings = s.split(":");
-            if(strings.length == 2){
-                try {
-                    if(FileConfig.config_Map.get("CustomAttributes.yml") != null){
-                        FileConfiguration caConfig = FileConfig.config_Map.get("CustomAttributes.yml");
-                        if(caConfig.getString("CustomAttributes."+strings[0].trim()) != null){
-                            String ll = strings[0];
-                            ll = ll.replace(strings[0].trim(), Objects.requireNonNull(caConfig.getString("CustomAttributes." + strings[0].trim())));
-                            s = ll+":"+strings[1];
-                        }
-                    }
-                }catch (Exception exception){
-                    //
-                }
-                itemLore.add(s);
 
-                String left = strings[0].trim();
-                String right = strings[1].trim();
-                try {
-                    cItem.setCustomAttrs(left, right);
-                }catch (Exception exception){
-                    //
-                }
+        for(String key : itemCustomAttrs){
+
+            String value = itemConfig.getString(itemID+".CustomValue."+key);
+
+            String showKey = ManagerItems.custom_Value.get(key);
+            if(showKey != null && !showKey.isEmpty()){
+                itemLore.add(showKey+" : "+value);
             }
+
+            try {
+                cItem.setCustomAttrs(key, value);
+            }catch (Exception exception){
+                //
+            }
+
         }
-        cItem.setLore(itemLore);
+        if(!itemLore.isEmpty()){
+            cItem.setLore(itemLore, true);
+        }
+
     }
 
     //設定物品的左鍵CD
@@ -74,19 +71,28 @@ public class ItemProject2 {
 
     public static void setItemFlags(CItem cItem, FileConfiguration itemConfig, String itemID){
         //設定物品隱藏無法破壞
-        cItem.setItemFlags("HIDE_UNBREAKABLE", itemConfig.getBoolean(itemID+".ItemFlags.HideUnbreakable"));
+        cItem.setItemFlags("HIDE_UNBREAKABLE", itemConfig.getBoolean(itemID+".HideItemFlags"));
         //設定物品隱藏藥水效果
-        cItem.setItemFlags("HIDE_POTION_EFFECTS", itemConfig.getBoolean(itemID+".ItemFlags.HidePotionEffects"));
+        cItem.setItemFlags("HIDE_POTION_EFFECTS", itemConfig.getBoolean(itemID+".HideItemFlags"));
         //設定物品隱藏可放置的方塊
-        cItem.setItemFlags("HIDE_PLACED_ON", itemConfig.getBoolean(itemID+".ItemFlags.HidePlacedOn"));
+        cItem.setItemFlags("HIDE_PLACED_ON", itemConfig.getBoolean(itemID+".HideItemFlags"));
         //設定物品隱藏附魔
-        cItem.setItemFlags("HIDE_ENCHANTS", itemConfig.getBoolean(itemID+".ItemFlags.HideEnchants"));
+        cItem.setItemFlags("HIDE_ENCHANTS", itemConfig.getBoolean(itemID+".HideItemFlags"));
         //設定物品隱藏染料
-        cItem.setItemFlags("HIDE_DYE", itemConfig.getBoolean(itemID+".ItemFlags.HideDye"));
+        cItem.setItemFlags("HIDE_DYE", itemConfig.getBoolean(itemID+".HideItemFlags"));
         //設定物品隱藏可破壞的方塊
-        cItem.setItemFlags("HIDE_DESTROYS", itemConfig.getBoolean(itemID+".ItemFlags.HideDestroys"));
+        cItem.setItemFlags("HIDE_DESTROYS", itemConfig.getBoolean(itemID+".HideItemFlags"));
         //設定物品隱藏屬性
-        cItem.setItemFlags("HIDE_ATTRIBUTES", itemConfig.getBoolean(itemID+".ItemFlags.HideAttributes"));
+        cItem.setItemFlags("HIDE_ATTRIBUTES", itemConfig.getBoolean(itemID+".HideItemFlags"));
+
+
+//        cItem.setItemFlags("HIDE_UNBREAKABLE", itemConfig.getBoolean(itemID+".ItemFlags.HideUnbreakable"));
+//        cItem.setItemFlags("HIDE_POTION_EFFECTS", itemConfig.getBoolean(itemID+".ItemFlags.HidePotionEffects"));
+//        cItem.setItemFlags("HIDE_PLACED_ON", itemConfig.getBoolean(itemID+".ItemFlags.HidePlacedOn"));
+//        cItem.setItemFlags("HIDE_ENCHANTS", itemConfig.getBoolean(itemID+".ItemFlags.HideEnchants"));
+//        cItem.setItemFlags("HIDE_DYE", itemConfig.getBoolean(itemID+".ItemFlags.HideDye"));
+//        cItem.setItemFlags("HIDE_DESTROYS", itemConfig.getBoolean(itemID+".ItemFlags.HideDestroys"));
+//        cItem.setItemFlags("HIDE_ATTRIBUTES", itemConfig.getBoolean(itemID+".ItemFlags.HideAttributes"));
     }
 
     //設定物品原生屬性

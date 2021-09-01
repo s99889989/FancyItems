@@ -15,4 +15,12 @@ public class ManagerItems {
     public static Map<UUID, String> player_Chat_Select = new HashMap<>();
     //物品編輯值
     public static Map<UUID, String> player_ItemEditString = new HashMap<>();
+
+    //物品編輯值2
+    public static Map<UUID, String[]> player_ItemEditArray = new HashMap<>();
+
+    //自訂值轉譯
+    public static Map<String, String> custom_Value = new HashMap<>();
+    //自訂值預設值
+    public static Map<String, String> custom_Value_Default = new HashMap<>();
 }

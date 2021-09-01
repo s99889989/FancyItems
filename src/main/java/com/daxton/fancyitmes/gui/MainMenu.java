@@ -56,6 +56,16 @@ public class MainMenu {
         }
 
     }
+
+    public static void open2(Player player){
+        UUID uuid = player.getUniqueId();
+        GUI gui = ManagerItems.gui_Map.get(uuid);
+        gui.removeButton(1, 5);
+        gui.clearButtonFrom(10, 54);
+        //物品類別列表
+        setItemType(player, gui);
+    }
+
     //物品類別列表
     public static void setItemType(Player player,  GUI gui){
 

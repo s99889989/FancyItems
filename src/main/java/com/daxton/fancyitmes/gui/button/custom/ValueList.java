@@ -25,16 +25,20 @@ public class ValueList implements GuiAction {
 
 	public void execute(ClickType clickType, InventoryAction action, int slot){
 		if(clickType == ClickType.LEFT){
-			gui.clearButtonFrom(10, 54);
-			Integer[] ignore = new Integer[]{18, 19, 27, 28, 36, 37};
-
-			config.getConfigurationSection("").getKeys(false).forEach(s -> {
-				GuiButton materialButton = GuiButton.ButtonBuilder.getInstance().
-					setItemStack(GuiItem.valueOf(player, languageConfig,"Gui.EditItem.CustomAttrs.Key", "{value}", "§f"+s)).
-					setGuiAction(new ValueSet(player, gui, config, s)).build();
-				gui.addButton(materialButton, 11, 44, ignore);
-			});
+			valueList(player, gui, config);
 		}
+	}
+
+	public static void valueList(Player player, GUI gui, FileConfiguration config){
+		gui.clearButtonFrom(10, 54);
+		Integer[] ignore = new Integer[]{18, 19, 27, 28, 36, 37};
+
+		config.getConfigurationSection("").getKeys(false).forEach(s -> {
+			GuiButton materialButton = GuiButton.ButtonBuilder.getInstance().
+				setItemStack(GuiItem.valueOf(player, languageConfig,"Gui.EditItem.CustomAttrs.Key", "{value}", "§f"+s)).
+				setGuiAction(new ValueSet(player, gui, config, s)).build();
+			gui.addButton(materialButton, 11, 44, ignore);
+		});
 	}
 
 }
