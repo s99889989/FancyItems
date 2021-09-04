@@ -1,0 +1,19 @@
+Blinker2:
+  Material: Red_Dye
+  CustomModelData: 1
+  DisplayName: §e眼罩
+  Lore:
+  - §f
+  - '§f類型: 防具-臉部'
+Blinker:
+  Material: Red_Dye
+  CustomModelData: 1
+  DisplayName: §e眼罩
+  Lore:
+  - §f
+  - '§f類型: 防具-臉部'
+  - §f
+  - §f物理防禦+5
+  - §f
+  - §f覆蓋在眼睛上面的布，不過有
+  - §f會用在其它目的上。

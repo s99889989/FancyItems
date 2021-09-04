@@ -1,0 +1,26 @@
+Bow:
+  Material: Magenta_Dye
+  CustomModelData: 1
+  DisplayName: §e弓
+  Lore:
+  - §f
+  - '§f類型: 武器-弓'
+  - §f
+  - §f物理攻擊+28
+  - §f攻擊速度+4
+  - §f
+  - §f輕便實用的木弓。
+Archer_Bow:
+  Material: Magenta_Dye
+  CustomModelData: 7
+  DisplayName: §e新手弓
+  CustomAttrs:
+  - '§7武器類型 : 武器-弓'
+  - '§7物理攻擊 : 10'
+  - '§7暴擊率% : 30'
+  DisableAttack: true
+  CoolDown:
+    LeftClick: '&self_attr_Attack_Speed_Core&'
+  Action:
+  - null:Action[Action=Archer_Shooting] ~LeftClickAir
+  - null:Action[Action=Archer_Shooting] ~LeftClickBlock

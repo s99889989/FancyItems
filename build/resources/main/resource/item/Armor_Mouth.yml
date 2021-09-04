@@ -1,0 +1,19 @@
+Flu_Mask2:
+  Material: Black_Dye
+  CustomModelData: 1
+  DisplayName: §e口罩
+  Lore:
+  - §f
+  - '§f類型: 防具-嘴部'
+Flu_Mask:
+  Material: Black_Dye
+  CustomModelData: 1
+  DisplayName: §e口罩
+  Lore:
+  - §f
+  - '§f類型: 防具-嘴部'
+  - §f
+  - §f物理防禦+3
+  - §f
+  - §f當感冒或保暖時，所戴的口
+  - §f罩。

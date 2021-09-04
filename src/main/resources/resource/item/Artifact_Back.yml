@@ -1,0 +1,13 @@
+LunaBack:
+  Material: Pink_Dye
+  CustomModelData: 3
+  DisplayName: §e星光之翼
+  Lore:
+  - §f
+  - '§f類型: 神器-背部'
+  - §f
+  - §f生命上限+4000
+  - §f物理防禦+15%
+  - §f魔法防禦+5%
+  - §f暴擊防護+15
+  - §f受毒、聖、暗、念、無屬性傷害-15%，火、水、地、風屬性傷害-5%

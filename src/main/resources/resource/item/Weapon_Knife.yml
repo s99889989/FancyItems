@@ -1,0 +1,12 @@
+ParadiseDagger:
+  Material: Lime_Dye
+  CustomModelData: 1
+  DisplayName: §e樂園團短劍
+  Lore:
+  - §f
+  - '§9類型: 武器-短劍'
+  - §f
+  - '§7物理攻擊: §f5'
+  - '§7攻擊速度: §f4'
+  - §f
+  - §f發給新進人員的武器。

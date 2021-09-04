@@ -1,4 +1,4 @@
-package com.daxton.fancyitmes.gui.button.typelist;
+package com.daxton.fancyitmes.gui.button.main;
 
 import com.daxton.fancycore.api.gui.GUI;
 import com.daxton.fancycore.api.gui.button.GuiAction;
@@ -8,7 +8,6 @@ import com.daxton.fancyitmes.config.FileConfig;
 import com.daxton.fancyitmes.gui.button.item.EditItem;
 import com.daxton.fancyitmes.gui.button.item.ItemListNext;
 import com.daxton.fancyitmes.gui.button.item.ItemListPrevious;
-import com.daxton.fancyitmes.gui.button.item.edit.ItemTypListNext;
 import com.daxton.fancyitmes.item.CustomItem;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;

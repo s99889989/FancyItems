@@ -3,3 +3,336 @@ LogMessage:
   LoadFancyCore: '§aFancyCore carregado.'
 OpMessage:
   Reload: '§e[FancyItems] §aLeia novamente o arquivo de configuração.'
+Title: 'Item edit menu'
+Gui:
+  ToMain:
+    Material: CRAFTING_TABLE
+    DisplayName: '§eMain menu'
+    Lore:
+      - '§f'
+      - '§fMain menu'
+  Save:
+    Material: Map
+    DisplayName: '§eSave settings'
+    Lore:
+      - '§f'
+      - '§fSave modified item settings'
+  Load:
+    Material: PAPER
+    DisplayName: '§eRead settings'
+    Lore:
+      - '§f'
+      - '§fRead configuration file'
+  Close:
+    Material: OAK_DOOR
+    DisplayName: '§eClose'
+    Lore:
+      - '§f'
+      - '§fClose'
+  PreviousPage:
+    Material: ARROW
+    DisplayName: '§ePrevious page'
+    Lore:
+      - '§f'
+      - '§fPrevious page'
+  NextPage:
+    Material: ARROW
+    DisplayName: '§eNext page'
+    Lore:
+      - '§f'
+      - '§fNext page'
+  EditItem:
+    Item:
+      - ''
+      - '§eLeft button: edit'
+      - '§eRight click: Obtain items'
+    ItemEdit:
+      - ''
+      - '§eLeft button: Obtain items'
+      - '§eRight click: Go back to the main menu of the item'
+    Material:
+      Material: DANDELION
+      DisplayName: '§eMaterial'
+      Lore:
+        - '§f'
+        - '§fMaterial: {material}'
+        - ''
+        - '§eLeft button: Enter'
+        - '§eRight click: select'
+      Message: 'Please enter the material type of the item.'
+    CustomModelData:
+      Material: PAINTING
+      DisplayName: '§eCustomModelData'
+      Lore:
+        - '§f'
+        - '§fCMD: {cmd}'
+        - ''
+        - '§eLeft button: Enter'
+      Message: 'Please enter the item CustomModelData.'
+    DisplayName:
+      Material: NAME_TAG
+      DisplayName: '§eShow name'
+      Lore:
+        - '§f'
+        - '§fShow name: {name}'
+        - ''
+        - '§eLeft button: Enter'
+      Message: 'Please enter the item display name.'
+    Lore:
+      LoreMain:
+        Material: WRITABLE_BOOK
+        DisplayName: '§eLore'
+        Lore:
+          - ''
+          - '§f{lore}'
+          - ''
+          - '§eLeft button: increase down'
+          - '§eRight click: Advanced editing'
+        Message: 'Please enter the Lore content to be added'
+      LoreFront:
+        Material: WRITABLE_BOOK
+        DisplayName: '§eLore'
+        Lore:
+          - '§f'
+          - '§fLore'
+          - ''
+          - '§eLeft button: increase up'
+        Message: 'Please enter the content to be added'
+      LoreEdit:
+        Material: WRITABLE_BOOK
+        DisplayName: '§eLore'
+        Lore:
+          - '§f'
+          - '{lore}'
+          - ''
+          - '§eLeft button: edit'
+          - '§eRight click: delete'
+        Message: 'Please enter the Lore content to be edited'
+      LoreAdd:
+        Material: WRITABLE_BOOK
+        DisplayName: '§eLore'
+        Lore:
+          - ''
+          - '§fLore'
+          - ''
+          - '§eLeft button: increase down'
+        Message: 'Please enter the Lore you want to add'
+    Attributes:
+      Main:
+        Material: MAGMA_CREAM
+        DisplayName: '§eOriginal attributes'
+        Lore:
+          - ''
+          - '§f{attributes}'
+          - ''
+          - '§eLeft button: edit'
+      Edit:
+        Material: MAGMA_CREAM
+        DisplayName: '§e{name}'
+        Lore:
+          - ''
+          - '§fSlot: §e{body}'
+          - '§fBonus type: §e{add}'
+          - '§fValue: §e{value}'
+          - ''
+          - '§eLeft button: select edit'
+          - '§eRight click: delete'
+      Add:
+        Material: MAGMA_CREAM
+        DisplayName: '§eAdd attributes'
+        Lore:
+          - ''
+          - '§eLeft button: increase'
+      Name:
+        Material: MAGMA_CREAM
+        DisplayName: '§eAttribute name'
+        Lore:
+          - ''
+          - '§fName: §e{name}'
+          - ''
+          - '§eLeft button: switch'
+      Slot:
+        Material: MAGMA_CREAM
+        DisplayName: '§eSlot'
+        Lore:
+          - ''
+          - '§fSlot: §e{slot}'
+          - ''
+          - '§eLeft button: switch'
+      Operation:
+        Material: MAGMA_CREAM
+        DisplayName: '§eBonus type'
+        Lore:
+          - ''
+          - '§fType: §e{operation}'
+          - ''
+          - '§eLeft button: switch'
+      Amount:
+        Material: MAGMA_CREAM
+        DisplayName: '§eValue'
+        Lore:
+          - ''
+          - '§fValue: §e{amount}'
+          - ''
+          - '§eLeft button: increase'
+          - '§eRight click: Decrease'
+          - '§eShift+Left Button: Increase the number of digits'
+          - '§eShift+right key: Decrease the number of digits'
+      Define:
+        Material: MAGMA_CREAM
+        DisplayName: '§eSure'
+        Lore:
+          - ''
+          - '§eLeft button: confirm modification'
+    Unbreakable:
+      Material: BEDROCK
+      DisplayName: '§eDamaged settings'
+      Lore:
+        - ''
+        - '§fWhether it will be damaged: §e{bedrock}'
+        - ''
+        - '§eLeft button: switch'
+    Data:
+      Material: iron_hoe
+      DisplayName: '§eDurability'
+      Lore:
+        - ''
+        - '§fDurability: §e{data}'
+        - ''
+        - '§eLeft button: Enter'
+      Message: 'Please enter the endurance value of the item'
+    Flag:
+      Material: BIRCH_SIGN
+      DisplayName: '§eLabel display'
+      Lore:
+        - ''
+        - '§fWhether to show label: §e{flag}'
+        - ''
+        - '§eLeft button: switch'
+    CustomAttrs:
+      Main:
+        Material: FIRE_CHARGE
+        DisplayName: '§eCustom value'
+        Lore:
+          - ''
+          - '§e{custonvalue}'
+          - ''
+          - '§eLeft button: edit'
+      Type:
+        Material: FIRE_CHARGE
+        DisplayName: '§eValue classification'
+        Lore:
+          - ''
+          - '§e{type}'
+          - ''
+          - '§eLeft button: select'
+      Key:
+        Material: FIRE_CHARGE
+        DisplayName: '§eValue'
+        Lore:
+          - ''
+          - '§eName displayed on Lore:{name}'
+          - '§eindex: {key}'
+          - '§evalue: {value}'
+          - ''
+          - '§eLeft button: Enter'
+    Action:
+      Main:
+        Material: command_block
+        DisplayName: '§eAction'
+        Lore:
+          - ''
+          - '§e{action}'
+          - ''
+          - '§eLeft button: edit'
+      MainEdit:
+        Material: command_block
+        DisplayName: '§fShow name: §e{name}'
+        Lore:
+          - ''
+          - '§fAction: §e{action}'
+          - '§fTrigger: §e{trigger}'
+          - '§fNeed goal: §e{need}'
+          - '§fMark: §e{mark}'
+          - '§fStop action: §e{stop}'
+          - '§fNumber of executions: §e{count}'
+          - '§fExecution interval: §e{period}'
+          - ''
+          - '§eLeft button: edit'
+          - '§eRight click: delete'
+      MainAdd:
+        Material: command_block
+        DisplayName: '§eAction'
+        Lore:
+          - ''
+          - '§eLeft button: add'
+      Name:
+        Material: DARK_OAK_SIGN
+        DisplayName: '§eShow name'
+        Lore:
+          - ''
+          - '§f{name}'
+          - ''
+          - '§eLeft button: Enter值'
+      Action:
+        Material: DARK_OAK_SIGN
+        DisplayName: '§eAction'
+        Lore:
+          - ''
+          - '§f{action}'
+          - ''
+          - '§eLeft button: Enter'
+      Trigger:
+        Material: DARK_OAK_SIGN
+        DisplayName: '§eTrigger'
+        Lore:
+          - ''
+          - '§f{trigger}'
+          - ''
+          - '§eLeft button: Enter'
+      NeedTarget:
+        Material: DARK_OAK_SIGN
+        DisplayName: '§eNeed goal'
+        Lore:
+          - ''
+          - '§f{need}'
+          - ''
+          - '§eLeft button: switch'
+      Mark:
+        Material: DARK_OAK_SIGN
+        DisplayName: '§eMark'
+        Lore:
+          - ''
+          - '§f{mark}'
+          - ''
+          - '§eLeft button: Enter'
+      Stop:
+        Material: DARK_OAK_SIGN
+        DisplayName: '§eStop action'
+        Lore:
+          - ''
+          - '§f{stop}'
+          - ''
+          - '§eLeft button: switch'
+      Count:
+        Material: DARK_OAK_SIGN
+        DisplayName: '§eNumber of executions'
+        Lore:
+          - ''
+          - '§f{count}'
+          - ''
+          - '§eLeft button: Enter'
+      CountPeriod:
+        Material: DARK_OAK_SIGN
+        DisplayName: '§eExecution interval'
+        Lore:
+          - ''
+          - '§f{period}'
+          - ''
+          - '§eLeft button: Enter'
+      Define:
+        Material: DARK_OAK_SIGN
+        DisplayName: '§eSure'
+        Lore:
+          - ''
+          - '§eLeft button: confirm modification'

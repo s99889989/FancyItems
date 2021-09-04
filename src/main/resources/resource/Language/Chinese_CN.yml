@@ -3,3 +3,336 @@ LogMessage:
   LoadFancyCore: '§aFancyCore 已加载。'
 OpMessage:
   Reload: '§e[FancyItems] §a重新读取设定档。'
+Title: '物品編輯選單'
+Gui:
+  ToMain:
+    Material: CRAFTING_TABLE
+    DisplayName: '§e主選單'
+    Lore:
+      - '§f'
+      - '§f主選單'
+  Save:
+    Material: Map
+    DisplayName: '§e儲存設定'
+    Lore:
+      - '§f'
+      - '§f儲存修改的物品設定'
+  Load:
+    Material: PAPER
+    DisplayName: '§e讀取設定'
+    Lore:
+      - '§f'
+      - '§f讀取設定檔案'
+  Close:
+    Material: OAK_DOOR
+    DisplayName: '§e關閉'
+    Lore:
+      - '§f'
+      - '§f關閉'
+  PreviousPage:
+    Material: ARROW
+    DisplayName: '§e上一頁'
+    Lore:
+      - '§f'
+      - '§f上一頁'
+  NextPage:
+    Material: ARROW
+    DisplayName: '§e下一頁'
+    Lore:
+      - '§f'
+      - '§f下一頁'
+  EditItem:
+    Item:
+      - ''
+      - '§e左鍵: 編輯'
+      - '§e右鍵: 獲得物品'
+    ItemEdit:
+      - ''
+      - '§e左鍵: 獲得物品'
+      - '§e右鍵: 回到該物品主選單'
+    Material:
+      Material: DANDELION
+      DisplayName: '§e材質'
+      Lore:
+        - '§f'
+        - '§f材質: {material}'
+        - ''
+        - '§e左鍵: 輸入'
+        - '§e右鍵: 選擇'
+      Message: '請輸入物品材質類型'
+    CustomModelData:
+      Material: PAINTING
+      DisplayName: '§eCustomModelData'
+      Lore:
+        - '§f'
+        - '§fCMD: {cmd}'
+        - ''
+        - '§e左鍵: 輸入'
+      Message: '請輸入物品CustomModelData'
+    DisplayName:
+      Material: NAME_TAG
+      DisplayName: '§e顯示名稱'
+      Lore:
+        - '§f'
+        - '§f顯示名稱: {name}'
+        - ''
+        - '§e左鍵: 輸入'
+      Message: '請輸入物品顯示名稱'
+    Lore:
+      LoreMain:
+        Material: WRITABLE_BOOK
+        DisplayName: '§eLore'
+        Lore:
+          - ''
+          - '§f{lore}'
+          - ''
+          - '§e左鍵: 向下增加'
+          - '§e右鍵: 進階編輯'
+        Message: '請輸入要增加的Lore內容'
+      LoreFront:
+        Material: WRITABLE_BOOK
+        DisplayName: '§eLore'
+        Lore:
+          - '§f'
+          - '§fLore'
+          - ''
+          - '§e左鍵: 向上增加'
+        Message: '請輸入要編輯的內容'
+      LoreEdit:
+        Material: WRITABLE_BOOK
+        DisplayName: '§eLore'
+        Lore:
+          - '§f'
+          - '{lore}'
+          - ''
+          - '§e左鍵: 編輯'
+          - '§e右鍵: 刪除'
+        Message: '請輸入要編輯的Lore內容'
+      LoreAdd:
+        Material: WRITABLE_BOOK
+        DisplayName: '§eLore'
+        Lore:
+          - ''
+          - '§fLore'
+          - ''
+          - '§e左鍵: 向下增加'
+        Message: '請輸入要增加的Lore'
+    Attributes:
+      Main:
+        Material: MAGMA_CREAM
+        DisplayName: '§e原版屬性'
+        Lore:
+          - ''
+          - '§f{attributes}'
+          - ''
+          - '§e左鍵: 編輯'
+      Edit:
+        Material: MAGMA_CREAM
+        DisplayName: '§e{name}'
+        Lore:
+          - ''
+          - '§f部位: §e{body}'
+          - '§f加成類型: §e{add}'
+          - '§f值: §e{value}'
+          - ''
+          - '§e左鍵: 選擇編輯'
+          - '§e右鍵: 刪除'
+      Add:
+        Material: MAGMA_CREAM
+        DisplayName: '§e增加屬性'
+        Lore:
+          - ''
+          - '§e左鍵: 增加'
+      Name:
+        Material: MAGMA_CREAM
+        DisplayName: '§e名稱'
+        Lore:
+          - ''
+          - '§f名稱: §e{name}'
+          - ''
+          - '§e左鍵: 切換'
+      Slot:
+        Material: MAGMA_CREAM
+        DisplayName: '§e部位'
+        Lore:
+          - ''
+          - '§f部位: §e{slot}'
+          - ''
+          - '§e左鍵: 切換'
+      Operation:
+        Material: MAGMA_CREAM
+        DisplayName: '§e加成類型'
+        Lore:
+          - ''
+          - '§f加成類型: §e{operation}'
+          - ''
+          - '§e左鍵: 切換'
+      Amount:
+        Material: MAGMA_CREAM
+        DisplayName: '§e值'
+        Lore:
+          - ''
+          - '§f值: §e{amount}'
+          - ''
+          - '§e左鍵: 增加'
+          - '§e右鍵: 減少'
+          - '§eShift+左鍵: 增加位數'
+          - '§eShift+右鍵: 減少位數'
+      Define:
+        Material: MAGMA_CREAM
+        DisplayName: '§e確定'
+        Lore:
+          - ''
+          - '§e左鍵: 確定修改'
+    Unbreakable:
+      Material: BEDROCK
+      DisplayName: '§e損壞設置'
+      Lore:
+        - ''
+        - '§f是否會損換: §e{bedrock}'
+        - ''
+        - '§e左鍵: 切換'
+    Data:
+      Material: iron_hoe
+      DisplayName: '§e耐久值'
+      Lore:
+        - ''
+        - '§f耐久值: §e{data}'
+        - ''
+        - '§e左鍵: 輸入'
+      Message: '請輸入物品耐久值'
+    Flag:
+      Material: BIRCH_SIGN
+      DisplayName: '§e標籤顯示'
+      Lore:
+        - ''
+        - '§f是否顯示標籤: §e{flag}'
+        - ''
+        - '§e左鍵: 切換'
+    CustomAttrs:
+      Main:
+        Material: FIRE_CHARGE
+        DisplayName: '§e自訂值'
+        Lore:
+          - ''
+          - '§e{custonvalue}'
+          - ''
+          - '§e左鍵: 編輯'
+      Type:
+        Material: FIRE_CHARGE
+        DisplayName: '§e值分類'
+        Lore:
+          - ''
+          - '§e{type}'
+          - ''
+          - '§e左鍵: 選擇'
+      Key:
+        Material: FIRE_CHARGE
+        DisplayName: '§e值'
+        Lore:
+          - ''
+          - '§e{name}'
+          - '§e{key}'
+          - '§e{value}'
+          - ''
+          - '§e左鍵: 輸入值'
+    Action:
+      Main:
+        Material: command_block
+        DisplayName: '§e動作'
+        Lore:
+          - ''
+          - '§e{action}'
+          - ''
+          - '§e左鍵: 編輯'
+      MainEdit:
+        Material: command_block
+        DisplayName: '§f顯示名稱: §e{name}'
+        Lore:
+          - ''
+          - '§f動作: §e{action}'
+          - '§f觸發: §e{trigger}'
+          - '§f需要目標: §e{need}'
+          - '§f標記: §e{mark}'
+          - '§f停止動作: §e{stop}'
+          - '§f執行次數: §e{count}'
+          - '§f執行間隔: §e{period}'
+          - ''
+          - '§e左鍵: 編輯'
+          - '§e右鍵: 刪除'
+      MainAdd:
+        Material: command_block
+        DisplayName: '§e動作'
+        Lore:
+          - ''
+          - '§e左鍵: 新增'
+      Name:
+        Material: DARK_OAK_SIGN
+        DisplayName: '§e顯示名稱'
+        Lore:
+          - ''
+          - '§f{name}'
+          - ''
+          - '§e左鍵: 輸入值'
+      Action:
+        Material: DARK_OAK_SIGN
+        DisplayName: '§e動作'
+        Lore:
+          - ''
+          - '§f{action}'
+          - ''
+          - '§e左鍵: 輸入值'
+      Trigger:
+        Material: DARK_OAK_SIGN
+        DisplayName: '§e觸發'
+        Lore:
+          - ''
+          - '§f{trigger}'
+          - ''
+          - '§e左鍵: 輸入值'
+      NeedTarget:
+        Material: DARK_OAK_SIGN
+        DisplayName: '§e需要目標'
+        Lore:
+          - ''
+          - '§f{need}'
+          - ''
+          - '§e左鍵: 切換'
+      Mark:
+        Material: DARK_OAK_SIGN
+        DisplayName: '§e標記'
+        Lore:
+          - ''
+          - '§f{mark}'
+          - ''
+          - '§e左鍵: 輸入值'
+      Stop:
+        Material: DARK_OAK_SIGN
+        DisplayName: '§e停止動作'
+        Lore:
+          - ''
+          - '§f{stop}'
+          - ''
+          - '§e左鍵: 切換'
+      Count:
+        Material: DARK_OAK_SIGN
+        DisplayName: '§e執行次數'
+        Lore:
+          - ''
+          - '§f{count}'
+          - ''
+          - '§e左鍵: 輸入值'
+      CountPeriod:
+        Material: DARK_OAK_SIGN
+        DisplayName: '§e執行間隔'
+        Lore:
+          - ''
+          - '§f{period}'
+          - ''
+          - '§e左鍵: 輸入值'
+      Define:
+        Material: DARK_OAK_SIGN
+        DisplayName: '§e確定'
+        Lore:
+          - ''
+          - '§e左鍵: 確定修改'

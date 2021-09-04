@@ -1,0 +1,72 @@
+ParadiseClothes2:
+  Material: Iron_Chestplate
+  CustomModelData: 1
+  DisplayName: §e樂園團服
+  Lore:
+  - §f
+  - '§f類型: 防具-盔甲'
+ParadiseClothes:
+  Material: Iron_Chestplate
+  CustomModelData: 1
+  DisplayName: §e樂園團服
+  Lore:
+  - §f
+  - '§f類型: 防具-盔甲'
+  - §f
+  - §f物理防禦+4
+  - §f
+  - §f樂園團為新人冒險者準備的衣
+  - §f服。方便實用。
+LeatherJacket:
+  Material: Iron_Chestplate
+  CustomModelData: 2
+  DisplayName: §e皮質外套
+  Lore:
+  - §f
+  - '§f類型: 防具-盔甲'
+  - §f
+  - §f物理防禦+13
+  - §f
+  - §f價格低廉的皮制外套，穿久了
+  - §f會有特別的皮革風采。
+FormalSuit:
+  Material: Iron_Chestplate
+  CustomModelData: 3
+  DisplayName: §e西裝
+  Lore:
+  - §f
+  - '§f類型: 防具-盔甲'
+  - §f
+  - §f物理防禦+19
+  - §f
+  - §f穿上後行動還算方便的男用
+  - §f衣。
+Mantle:
+  Material: Iron_Chestplate
+  CustomModelData: 4
+  DisplayName: §e大衣
+  Lore:
+  - §f
+  - '§f類型: 防具-盔甲'
+  - §f
+  - §f物理防禦+24
+  - §f
+  - §f沒有腰身的長大衣。
+LightRobe:
+  Material: Iron_Chestplate
+  CustomModelData: 5
+  DisplayName: §e輕便外袍
+  Lore:
+  - §f
+  - '§f類型: 防具-盔甲'
+  - §f
+  - §f物理防禦+33
+  - §f
+  - §f輕便的長大外袍。
+LightRobe2:
+  Material: Iron_Chestplate
+  CustomModelData: 5
+  DisplayName: §e輕便外袍
+  Lore:
+  - §f
+  - '§f類型: 防具-盔甲'

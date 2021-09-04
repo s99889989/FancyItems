@@ -1,0 +1,95 @@
+Bow1:
+  Material: magenta_dye
+  CustomModelData: 6
+  DisplayName: §eBow
+  DisableAttack: true
+  CoolDown:
+    RightClick: 10
+  Action:
+  - Launch an arrow:Action[a=Bow1_Shooting] ~RightClickAir
+  - null:Action[a=Bow1_Shooting] ~RightClickBlock
+  CustomValue:
+    Str: '20'
+test1:
+  Material: yellow_dye
+  CustomModelData: 1
+  CoolDown:
+    RightClick: 10
+  Action:
+  - 閃擊:Action[Action=FlashAttack;Count=1;CountPeriod=10;Stop=false] @Target{Filters=null;R=0.0;d=5}  ~RightClickAir
+  - null:Action[Action=FlashAttack;Count=1;CountPeriod=10;Stop=false] @Target{Filters=null;R=0.0;d=5}  ~RightClickBlock
+explode:
+  Material: White_Dye
+  CustomModelData: 1
+  CoolDown:
+    RightClick: 40
+  Action:
+  - 爆光:Action[Action=Explode;Count=1;CountPeriod=10;Stop=false] ~RightClickAir
+  - null:Action[Action=Explode;Count=1;CountPeriod=10;Stop=false] ~RightClickBlock
+light2:
+  Material: Gray_Dye
+  DisplayName: 閃光2
+  CustomModelData: 3
+  CoolDown:
+    RightClick: 40
+  Action:
+  - null:Action[Action=Explode1;Count=1;CountPeriod=10;Stop=false] ~RightClickAir
+  - null:Action[Action=Explode1;Count=1;CountPeriod=10;Stop=false] ~RightClickBlock
+  - 閃光:Action[Action=Explode2;Count=1;CountPeriod=10;Stop=false] @SelfRadius{Filters=null;R=10.0}
+    ~RightClickAir
+  - null:Action[Action=Explode2;Count=1;CountPeriod=10;Stop=false] @SelfRadius{Filters=null;R=10.0}
+    ~RightClickBlock
+Collapse:
+  Material: Orange_Dye
+  CustomModelData: 1
+  CoolDown:
+    RightClick: 40
+  Action:
+  - Collapse:Action[Action=Collapse;Count=1;CountPeriod=10;Stop=false] @Self{Filters=null;R=1.0}  ~RightClickAir
+  - null:Action[Action=Collapse;Count=1;CountPeriod=10;Stop=false] @Self{Filters=null;R=1.0}  ~RightClickBlock
+  DisplayName: 地刺
+Frisbee:
+  Material: Orange_Dye
+  CustomModelData: 2
+  DisplayName: 發射光盤
+  CoolDown:
+    RightClick: 40
+  Action:
+  - 光盤:Action[Action=Frisbee;Count=1;CountPeriod=10;Stop=false] ~RightClickAir
+  - null:Action[Action=Frisbee;Count=1;CountPeriod=10;Stop=false] ~RightClickBlock
+Tornado:
+  Material: Orange_Dye
+  CustomModelData: 3
+  DisplayName: 捲風
+  CoolDown:
+    RightClick: 40
+  Action:
+  - 捲風:Action[Action=Tornado;Count=1;CountPeriod=10;Stop=false] ~RightClickAir
+  - null:Action[Action=Tornado;Count=1;CountPeriod=10;Stop=false] ~RightClickBlock
+TornadoLine:
+  Material: Orange_Dye
+  CustomModelData: 4
+  CoolDown:
+    RightClick: 40
+  Action:
+  - 直向龍捲風:Action[Action=TornadoLine;Count=1;CountPeriod=10;Stop=false] ~RightClickAir
+  - null:Action[Action=TornadoLine;Count=1;CountPeriod=10;Stop=false] ~RightClickBlock
+  DisplayName: 吹拂
+ModelAttack:
+  Material: Lapis_Lazuli
+  CustomModelData: 1
+  CoolDown:
+    RightClick: 40
+  Action:
+  - 模型攻擊:Action[Action=ModelAttack;Count=1;CountPeriod=10;Stop=false] ~RightClickAir
+  - null:Action[Action=ModelAttack;Count=1;CountPeriod=10;Stop=false] ~RightClickBlock
+  DisplayName: 生命召喚
+LaserBeam:
+  Material: Orange_Dye
+  CustomModelData: 5
+  DisplayName: 射線
+  CoolDown:
+    RightClick: 40
+  Action:
+  - '射線:Action[Action=LaserBeam;Count=1;CountPeriod=10;Stop=false] ~RightClickAir '
+  - 'null:Action[Action=LaserBeam;Count=1;CountPeriod=10;Stop=false] ~RightClickBlock '

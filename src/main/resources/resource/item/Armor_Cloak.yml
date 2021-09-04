@@ -1,0 +1,19 @@
+ParadisePants2:
+  Material: Brick
+  CustomModelData: 1
+  DisplayName: §e樂園團披風
+  Lore:
+  - §f
+  - '§f類型: 防具-披風'
+ParadisePants:
+  Material: Brick
+  CustomModelData: 1
+  DisplayName: §e樂園團披風
+  Lore:
+  - §f
+  - '§f類型: 防具-披風'
+  - §f
+  - §f物理防禦+6
+  - §f
+  - §f發放給加入樂園團的人的披
+  - §f風。飄動的背影看上去很帥。

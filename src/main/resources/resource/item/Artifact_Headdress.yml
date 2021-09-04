@@ -1,0 +1,21 @@
+HeaddressArtifact:
+  Material: Pink_Dye
+  CustomModelData: 2
+  DisplayName: §e太陽神頭盔
+  Lore:
+  - §f
+  - '§f類型: 神器-帽子'
+
+SunHelmet:
+  Material: Pink_Dye
+  CustomModelData: 2
+  DisplayName: §e太陽頭盔
+  Lore:
+  - §f
+  - '§f類型: 神器-頭盔'
+  - §f
+  - §f生命上限+3000
+  - §f物理防禦+15%
+  - §f魔法防禦+5%
+  - §f暴擊防護+8
+  - §f受毒、聖、暗、念、無屬性傷害-10%

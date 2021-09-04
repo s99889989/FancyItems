@@ -1,0 +1,29 @@
+Paradise_Group_Backpack2:
+  Material: Sugar
+  CustomModelData: 1
+  DisplayName: §e樂園團背包
+  Lore:
+  - §f
+  - '§f類型: 防具-背部'
+  Attributes:
+  - HAND:GENERIC_ATTACK_DAMAGE:ADD_NUMBER:10
+  Action:
+  - null:Action[Action=Explode] ~onStandup
+Paradise_Group_Backpack:
+  Material: Sugar
+  CustomModelData: 1
+  DisplayName: §e樂園團背包
+  Lore:
+  - §f
+  - '§f類型: 防具-背部'
+  - §f
+  - §f物理防禦+3
+  - §f
+  - §f樂園團為新人冒險者準備的背
+  - §f包。體貼的準備了地圖，指南
+  - §f針，針線包，蝴蝶翅膀等冒險
+  - §f物品。
+  Attributes:
+  - HAND:GENERIC_ATTACK_DAMAGE:ADD_NUMBER:10
+  Action:
+  - null:Action[Action=Explode] ~onStandup

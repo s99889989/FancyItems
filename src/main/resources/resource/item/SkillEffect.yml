@@ -9,27 +9,27 @@ LaserBeam:
   CustomModelData: 3
 Arrow1:
   Material: FEATHER
-  CustomModelData: 398
+  CustomModelData: 7
   DisplayName: §eArrow
 LawTown:
   Material: FEATHER
-  CustomModelData: 400
+  CustomModelData: 6
   RemoveItemFlags: true
   DisplayName: §e法陣
   Lore:
   - ''
 Archer_Anklesnare:
   Material: FEATHER
-  CustomModelData: 397
+  CustomModelData: 8
   RemoveItemFlags: true
   DisplayName: §e定位陷阱
 Archer_Anklesnare2:
   Material: FEATHER
-  CustomModelData: 396
+  CustomModelData: 9
   RemoveItemFlags: true
   DisplayName: §e定位陷阱啟動
 Ice:
   Material: FEATHER
-  CustomModelData: 402
+  CustomModelData: 5
   RemoveItemFlags: true
   DisplayName: §e冰塊

@@ -132,7 +132,7 @@ public class CustomItem {
         //設定物品的動作
         cItem.setAction(itemConfig.getStringList(itemID+".Action"));
         //設定物的頭值
-        //cItem.setHeadValue(itemConfig.getString(itemID+".HeadValue"));
+        cItem.setHeadValue(itemConfig.getString(itemID+".HeadValue"));
         //設定物品的右鍵CD
         ItemProject2.setCoolDownRightClick(cItem, itemConfig, itemID);
         //設定物品的左鍵CD

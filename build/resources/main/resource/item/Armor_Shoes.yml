@@ -1,0 +1,20 @@
+ParadiseBoots2:
+  Material: Iron_Boots
+  CustomModelData: 1
+  DisplayName: §e樂園團靴子
+  Lore:
+  - §f
+  - '§f類型: 防具-鞋子'
+ParadiseBoots:
+  Material: Iron_Boots
+  CustomModelData: 1
+  DisplayName: §e樂園團靴子
+  Lore:
+  - §f
+  - '§f類型: 防具-鞋子'
+  - §f
+  - §f物理防禦+3
+  - §f
+  - §f發放給樂園團成員的靴子。走
+  - §f很長時間路也不會疲勞，專為
+  - §f冒險設計的鞋子。

@@ -1,0 +1,12 @@
+SageDiary:
+  Material: Lapis_Lazuli
+  CustomModelData: 1
+  DisplayName: §e賢者日記
+  Lore:
+  - §f
+  - '§f類型: 武器-書'
+  - §f
+  - §f魔法攻擊+96
+  - §f智力+3
+  - §f裝備攻速+5%
+  - §f每精煉+1，【自動念咒】的觸發機率提高0.3%

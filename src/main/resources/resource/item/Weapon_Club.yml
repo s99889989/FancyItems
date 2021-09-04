@@ -1,0 +1,13 @@
+Club:
+  Material: White_Dye
+  CustomModelData: 1
+  DisplayName: §e木錘
+  Lore:
+  - §f
+  - '§f類型: 武器-鈍器'
+  - §f
+  - §f物理攻擊+36
+  - §f攻擊速度+4
+  - §f
+  - §f木製的鈍器,任何人都方便使
+  - §f用。

@@ -1,497 +1,483 @@
 Robot_S:
   Material: TROPICAL_FISH
   CustomModelData: 37
-  DisplayName: '§e金色機器人S'
+  DisplayName: §e金色機器人S
   Lore:
-  - '§f'
-  - '§f雖然壞掉了，但是無法再利用的部'
-  - '§f位也是金色的，所以價值高。'
+  - §f
+  - §f雖然壞掉了，但是無法再利用的部
+  - §f位也是金色的，所以價值高。
 Robot_A:
   Material: TROPICAL_FISH
   CustomModelData: 38
-  DisplayName: '§e銀色機器人A'
+  DisplayName: §e銀色機器人A
   Lore:
-  - '§f'
-  - '§f雖然壞掉了，但是無法再利用的部'
-  - '§f位也是銀色的，所以價值不錯。'
+  - §f
+  - §f雖然壞掉了，但是無法再利用的部
+  - §f位也是銀色的，所以價值不錯。
 Robot_B:
   Material: TROPICAL_FISH
   CustomModelData: 39
-  DisplayName: '§e生鏽的機器人B'
+  DisplayName: §e生鏽的機器人B
   Lore:
-  - '§f'
-  - '§f因為幾乎沒有可以再利用的部位，'
-  - '§f所以價值極低。'
+  - §f
+  - §f因為幾乎沒有可以再利用的部位，
+  - §f所以價值極低。
 Robot_C:
   Material: TROPICAL_FISH
   CustomModelData: 40
-  DisplayName: '§e長青苔的機器人C'
+  DisplayName: §e長青苔的機器人C
   Lore:
-  - '§f'
-  - '§f因為幾乎沒有可以再利用的部位，'
-  - '§f所以價值極低。'
+  - §f
+  - §f因為幾乎沒有可以再利用的部位，
+  - §f所以價值極低。
 LiziFish_S:
   Material: TROPICAL_FISH
   CustomModelData: 25
-  DisplayName: '§e金色笠子魚S'
+  DisplayName: §e金色笠子魚S
   Lore:
-  - '§f'
-  - '§f閃爍金黃色光芒的笠子魚。因為沒'
-  - '§f有毒請安心。'
+  - §f
+  - §f閃爍金黃色光芒的笠子魚。因為沒
+  - §f有毒請安心。
 LiziFish_A:
   Material: TROPICAL_FISH
   CustomModelData: 26
-  DisplayName: '§e銀色笠子魚A'
+  DisplayName: §e銀色笠子魚A
   Lore:
-  - '§f'
-  - '§f閃爍銀色光芒的笠子魚。因為沒有'
-  - '§f毒請安心。'
+  - §f
+  - §f閃爍銀色光芒的笠子魚。因為沒有
+  - §f毒請安心。
 LiziFish_B:
   Material: TROPICAL_FISH
   CustomModelData: 27
-  DisplayName: '§e藍色笠子魚B'
+  DisplayName: §e藍色笠子魚B
   Lore:
-  - '§f'
-  - '§f因為鰭有毒，可要小心唷。'
+  - §f
+  - §f因為鰭有毒，可要小心唷。
 LiziFish_C:
   Material: TROPICAL_FISH
   CustomModelData: 28
-  DisplayName: '§e綠的笠子魚C'
+  DisplayName: §e綠的笠子魚C
   Lore:
-  - '§f'
-  - '§f因為鰭有毒還是綠色的好像遭到汙'
-  - '§f染了!?...要吃的話可要小心唷。'
+  - §f
+  - §f因為鰭有毒還是綠色的好像遭到汙
+  - §f染了!?...要吃的話可要小心唷。
 SeaTurtle_S:
   Material: TROPICAL_FISH
   CustomModelData: 17
-  DisplayName: '§e金色海龜S'
+  DisplayName: §e金色海龜S
   Lore:
-  - '§f'
-  - '§f閃著金色光芒的海龜。其實好像是'
-  - '§f龍宮的使者!?'
+  - §f
+  - §f閃著金色光芒的海龜。其實好像是
+  - §f龍宮的使者!?
 SeaTurtle_A:
   Material: TROPICAL_FISH
   CustomModelData: 18
-  DisplayName: '§e銀色海龜A'
+  DisplayName: §e銀色海龜A
   Lore:
-  - '§f'
-  - '§f閃著銀色光芒的老海龜。聽說海龜'
-  - '§f產卵會流淚喔。'
+  - §f
+  - §f閃著銀色光芒的老海龜。聽說海龜
+  - §f產卵會流淚喔。
 SeaTurtle_B:
   Material: TROPICAL_FISH
   CustomModelData: 19
-  DisplayName: '§e海龜B'
+  DisplayName: §e海龜B
   Lore:
-  - '§f'
-  - '§f聽說吃了海龜蛋，體力會變的非常'
-  - '§f好喔!'
+  - §f
+  - §f聽說吃了海龜蛋，體力會變的非常
+  - §f好喔!
 SeaTurtle_C:
   Material: TROPICAL_FISH
   CustomModelData: 20
-  DisplayName: '§e老海龜C'
+  DisplayName: §e老海龜C
   Lore:
-  - '§f'
-  - '§f聽說是活了一萬年的長壽老海龜。'
-  - '§f...不對!這是陸龜啦!'
+  - §f
+  - §f聽說是活了一萬年的長壽老海龜。
+  - §f...不對!這是陸龜啦!
 Kelp_A:
   Material: TROPICAL_FISH
   CustomModelData: 9
-  DisplayName: '§e金海帶A'
+  DisplayName: §e金海帶A
   Lore:
-  - '§f'
-  - '§f能夠煮出非常美味的湯，煮完湯之'
-  - '§f後要直接吃也十分美味。'
+  - §f
+  - §f能夠煮出非常美味的湯，煮完湯之
+  - §f後要直接吃也十分美味。
 Kelp_B:
   Material: TROPICAL_FISH
   CustomModelData: 10
-  DisplayName: '§e銀海帶B'
+  DisplayName: §e銀海帶B
   Lore:
-  - '§f'
-  - '§f能夠煮出非常美味的湯。其實也不'
-  - '§f錯吃耶。'
+  - §f
+  - §f能夠煮出非常美味的湯。其實也不
+  - §f錯吃耶。
 Kelp_C:
   Material: TROPICAL_FISH
   CustomModelData: 11
-  DisplayName: '§e紅海帶C'
+  DisplayName: §e紅海帶C
   Lore:
-  - '§f'
-  - '§f咦?紅色的海帶?...能夠煮出味道'
-  - '§f非常激烈的湯。'
+  - §f
+  - §f咦?紅色的海帶?...能夠煮出味道
+  - §f非常激烈的湯。
 Kelp_D:
   Material: TROPICAL_FISH
   CustomModelData: 12
-  DisplayName: '§e受到汙染的海帶D'
+  DisplayName: §e受到汙染的海帶D
   Lore:
-  - '§f'
-  - '§f因為受到汙染，感覺好像會變成神'
-  - '§f話生物。'
+  - §f
+  - §f因為受到汙染，感覺好像會變成神
+  - §f話生物。
 SeaAnemone_A:
   Material: TROPICAL_FISH
   CustomModelData: 13
-  DisplayName: '§e金海葵A'
+  DisplayName: §e金海葵A
   Lore:
-  - '§f'
-  - '§f閃爍著金色光芒的海葵。連小丑魚'
-  - '§f也是金的，這就是近朱者赤近墨者'
-  - '§f黑嗎?'
+  - §f
+  - §f閃爍著金色光芒的海葵。連小丑魚
+  - §f也是金的，這就是近朱者赤近墨者
+  - §f黑嗎?
 SeaAnemone_B:
   Material: TROPICAL_FISH
   CustomModelData: 14
-  DisplayName: '§e銀海葵B'
+  DisplayName: §e銀海葵B
   Lore:
-  - '§f'
-  - '§f身體是金屬的海葵。這還算是生物'
-  - '§f嗎!?'
+  - §f
+  - §f身體是金屬的海葵。這還算是生物
+  - §f嗎!?
 SeaAnemone_C:
   Material: TROPICAL_FISH
   CustomModelData: 15
-  DisplayName: '§e海葵C'
+  DisplayName: §e海葵C
   Lore:
-  - '§f'
-  - '§f連共生的同伴小丑魚都可以獲得!'
-  - '§f有種買一送一得感覺喔。'
+  - §f
+  - §f連共生的同伴小丑魚都可以獲得!
+  - §f有種買一送一得感覺喔。
 SeaAnemone_D:
   Material: TROPICAL_FISH
   CustomModelData: 16
-  DisplayName: '§e髒海葵D'
+  DisplayName: §e髒海葵D
   Lore:
-  - '§f'
-  - '§f因為垃圾汙染身心都變髒的海葵..'
-  - '§f.。因為髒掉了也不能夠交換到一'
-  - '§f些好獎品。'
+  - §f
+  - §f因為垃圾汙染身心都變髒的海葵..
+  - §f.。因為髒掉了也不能夠交換到一
+  - §f些好獎品。
 SwordFish_S:
   Material: TROPICAL_FISH
   CustomModelData: 33
-  DisplayName: '§e金色旗魚S'
+  DisplayName: §e金色旗魚S
   Lore:
-  - '§f'
-  - '§f閃著金色光芒的旗魚。因為鼻子的'
-  - '§f前端很尖，在處理上要注意哦。'
+  - §f
+  - §f閃著金色光芒的旗魚。因為鼻子的
+  - §f前端很尖，在處理上要注意哦。
 SwordFish_A:
   Material: TROPICAL_FISH
   CustomModelData: 34
-  DisplayName: '§e銀色旗魚A'
+  DisplayName: §e銀色旗魚A
   Lore:
-  - '§f'
-  - '§f閃著銀色光芒的旗魚。因為鼻子的'
-  - '§f前端很尖，在處理上要注意哦。'
+  - §f
+  - §f閃著銀色光芒的旗魚。因為鼻子的
+  - §f前端很尖，在處理上要注意哦。
 SwordFish_B:
   Material: TROPICAL_FISH
   CustomModelData: 35
-  DisplayName: '§e旗魚B'
+  DisplayName: §e旗魚B
   Lore:
-  - '§f'
-  - '§f活跳跳的旗魚。因為鼻子的前端很'
-  - '§f尖，在處理上要注意哦。'
+  - §f
+  - §f活跳跳的旗魚。因為鼻子的前端很
+  - §f尖，在處理上要注意哦。
 SwordFish_C:
   Material: TROPICAL_FISH
   CustomModelData: 36
-  DisplayName: '§e受汙染的旗魚C'
+  DisplayName: §e受汙染的旗魚C
   Lore:
-  - '§f'
-  - '§f從受污染的海域飄來的旗魚。因為'
-  - '§f鼻子的前端很尖，在處理上要注意'
-  - '§f哦。'
+  - §f
+  - §f從受污染的海域飄來的旗魚。因為
+  - §f鼻子的前端很尖，在處理上要注意
+  - §f哦。
 Nautilus_S:
   Material: TROPICAL_FISH
   CustomModelData: 53
-  DisplayName: '§e金色鸚鵡螺化石S'
+  DisplayName: §e金色鸚鵡螺化石S
   Lore:
-  - '§f'
-  - '§f閃爍著金色光芒的鸚鵡螺化石。可'
-  - '§f以交易到非常好的價格。'
+  - §f
+  - §f閃爍著金色光芒的鸚鵡螺化石。可
+  - §f以交易到非常好的價格。
 Nautilus_A:
   Material: TROPICAL_FISH
   CustomModelData: 54
-  DisplayName: '§e銀色鸚鵡螺化石A'
+  DisplayName: §e銀色鸚鵡螺化石A
   Lore:
-  - '§f'
-  - '§f閃爍著金色光芒的鸚鵡螺化石。價'
-  - '§f格還不錯。'
+  - §f
+  - §f閃爍著金色光芒的鸚鵡螺化石。價
+  - §f格還不錯。
 Nautilus_B:
   Material: TROPICAL_FISH
   CustomModelData: 55
-  DisplayName: '§e鸚鵡螺化石B'
+  DisplayName: §e鸚鵡螺化石B
   Lore:
-  - '§f'
-  - '§f應該是已經滅種的生物。但是仔細'
-  - '§f看會覺得好像還有在呼吸。'
+  - §f
+  - §f應該是已經滅種的生物。但是仔細
+  - §f看會覺得好像還有在呼吸。
 Nautilus_C:
   Material: TROPICAL_FISH
   CustomModelData: 56
-  DisplayName: '§e腐爛的鸚鵡螺化石D'
+  DisplayName: §e腐爛的鸚鵡螺化石D
   Lore:
-  - '§f'
-  - '§f啊...這是高價品呢。只要它還沒'
-  - '§f腐爛的話啦...'
+  - §f
+  - §f啊...這是高價品呢。只要它還沒
+  - §f腐爛的話啦...
 Eel_A:
   Material: TROPICAL_FISH
   CustomModelData: 49
-  DisplayName: '§e金色鰻魚A'
+  DisplayName: §e金色鰻魚A
   Lore:
-  - '§f'
-  - '§f閃爍著黃色光芒的鰻魚。味道真是'
-  - '§f絕品。'
+  - §f
+  - §f閃爍著黃色光芒的鰻魚。味道真是
+  - §f絕品。
 Eel_B:
   Material: TROPICAL_FISH
   CustomModelData: 50
-  DisplayName: '§e銀色鰻魚B'
+  DisplayName: §e銀色鰻魚B
   Lore:
-  - '§f'
-  - '§f閃爍著銀色光芒的鰻魚。味道普普。'
+  - §f
+  - §f閃爍著銀色光芒的鰻魚。味道普普。
 Eel_C:
   Material: TROPICAL_FISH
   CustomModelData: 51
-  DisplayName: '§e鰻魚C'
+  DisplayName: §e鰻魚C
   Lore:
-  - '§f'
-  - '§f因為沒有鱗片所以很容易料理。吃'
-  - '§f了會很有精神喔~。'
+  - §f
+  - §f因為沒有鱗片所以很容易料理。吃
+  - §f了會很有精神喔~。
 Eel_D:
   Material: TROPICAL_FISH
   CustomModelData: 52
-  DisplayName: '§e腐爛的鰻魚D'
+  DisplayName: §e腐爛的鰻魚D
   Lore:
-  - '§f'
-  - '§f已經爛到沒得救了，我的鰻魚。'
+  - §f
+  - §f已經爛到沒得救了，我的鰻魚。
 PearlOyster_S:
   Material: TROPICAL_FISH
   CustomModelData: 5
-  DisplayName: '§e金色珍珠貝S'
+  DisplayName: §e金色珍珠貝S
   Lore:
-  - '§f'
-  - '§f金黃色的珍珠貝。產出珍珠的價值'
-  - '§f與普通的貝是相同的。'
+  - §f
+  - §f金黃色的珍珠貝。產出珍珠的價值
+  - §f與普通的貝是相同的。
 PearlOyster_A:
   Material: TROPICAL_FISH
   CustomModelData: 6
-  DisplayName: '§e銀色珍珠貝A'
+  DisplayName: §e銀色珍珠貝A
   Lore:
-  - '§f'
-  - '§f銀色珍珠貝。產出珍珠的價值與普'
-  - '§f通的貝是相同的。'
+  - §f
+  - §f銀色珍珠貝。產出珍珠的價值與普
+  - §f通的貝是相同的。
 PearlOyster_B:
   Material: TROPICAL_FISH
   CustomModelData: 7
-  DisplayName: '§e珍珠貝B'
+  DisplayName: §e珍珠貝B
   Lore:
-  - '§f'
-  - '§f漂亮的珍珠貝。產出珍珠具有相當'
-  - '§f的價值。'
+  - §f
+  - §f漂亮的珍珠貝。產出珍珠具有相當
+  - §f的價值。
 PearlOyster_C:
   Material: TROPICAL_FISH
   CustomModelData: 8
-  DisplayName: '§e髒的珍珠貝C'
+  DisplayName: §e髒的珍珠貝C
   Lore:
-  - '§f'
-  - '§f由受汙染的海域漂流過來的珍珠貝'
-  - '§f。因為產出的珍珠也被弄髒了，所'
-  - '§f以價值也不高。'
+  - §f
+  - §f由受汙染的海域漂流過來的珍珠貝
+  - §f。因為產出的珍珠也被弄髒了，所
+  - §f以價值也不高。
 Snapper_S:
   Material: TROPICAL_FISH
   CustomModelData: 41
-  DisplayName: '§e金的鯛魚S'
+  DisplayName: §e金的鯛魚S
   Lore:
-  - '§f'
+  - §f
   - '§f哇!鯛魚!高級品!還是金色的! '
-  - '§f不只給人帶來幸運，賣價也相當高'
-  - '§f喔~。'
+  - §f不只給人帶來幸運，賣價也相當高
+  - §f喔~。
 Snapper_A:
   Material: TROPICAL_FISH
   CustomModelData: 42
-  DisplayName: '§e銀的鯛魚A'
+  DisplayName: §e銀的鯛魚A
   Lore:
-  - '§f'
+  - §f
   - '§f哇!鯛魚!還是銀色的! '
-  - '§f不只是美味，賣價也相當高喔~。'
+  - §f不只是美味，賣價也相當高喔~。
 Snapper_B:
   Material: TROPICAL_FISH
   CustomModelData: 43
-  DisplayName: '§e鯛魚B'
+  DisplayName: §e鯛魚B
   Lore:
-  - '§f'
-  - '§f是一種高級又好吃的魚，在日本是'
-  - '§f很幸運的魚喔!也因為這樣很貴。'
+  - §f
+  - §f是一種高級又好吃的魚，在日本是
+  - §f很幸運的魚喔!也因為這樣很貴。
 Snapper_C:
   Material: TROPICAL_FISH
   CustomModelData: 44
-  DisplayName: '§e腐爛的鯛魚C'
+  DisplayName: §e腐爛的鯛魚C
   Lore:
-  - '§f'
-  - '§f雖然說這是鯛魚沒錯啦...可是它'
-  - '§f腐爛了...。不會有人出太多錢買'
-  - '§f的喔?'
+  - §f
+  - §f雖然說這是鯛魚沒錯啦...可是它
+  - §f腐爛了...。不會有人出太多錢買
+  - §f的喔?
 PufferFish_S:
   Material: TROPICAL_FISH
   CustomModelData: 1
-  DisplayName: '§e金河豚S'
+  DisplayName: §e金河豚S
   Lore:
-  - '§f'
-  - '§f閃爍著金色光芒的河豚。因為沒有'
-  - '§f毒所以簡單處理過就非常好吃。'
+  - §f
+  - §f閃爍著金色光芒的河豚。因為沒有
+  - §f毒所以簡單處理過就非常好吃。
 PufferFish_A:
   Material: TROPICAL_FISH
   CustomModelData: 2
-  DisplayName: '§e銀河豚A'
+  DisplayName: §e銀河豚A
   Lore:
-  - '§f'
-  - '§f閃爍銀色光芒的河豚。味道獨特讓'
-  - '§f人上癮。'
+  - §f
+  - §f閃爍銀色光芒的河豚。味道獨特讓
+  - §f人上癮。
 PufferFish_B:
   Material: TROPICAL_FISH
   CustomModelData: 3
-  DisplayName: '§e紅河豚B'
+  DisplayName: §e紅河豚B
   Lore:
-  - '§f'
-  - '§f皮膚具有劇毒的河豚，這毒作為武'
-  - '§f器來使用的話...?'
+  - §f
+  - §f皮膚具有劇毒的河豚，這毒作為武
+  - §f器來使用的話...?
 PufferFish_C:
   Material: TROPICAL_FISH
   CustomModelData: 4
-  DisplayName: '§e河豚C'
+  DisplayName: §e河豚C
   Lore:
-  - '§f'
-  - '§f把皮膚剝掉，去除毒素。就很好吃'
-  - '§f喔。'
+  - §f
+  - §f把皮膚剝掉，去除毒素。就很好吃
+  - §f喔。
 Armor_A:
   Material: TROPICAL_FISH
   CustomModelData: 21
-  DisplayName: '§e金色盔甲A'
+  DisplayName: §e金色盔甲A
   Lore:
-  - '§f'
-  - '§f用黃金所製成的西洋盔甲。'
+  - §f
+  - §f用黃金所製成的西洋盔甲。
 Armor_B:
   Material: TROPICAL_FISH
   CustomModelData: 22
-  DisplayName: '§e銀的盔甲B'
+  DisplayName: §e銀的盔甲B
   Lore:
-  - '§f'
-  - '§f用銀所製成的西洋盔甲。'
+  - §f
+  - §f用銀所製成的西洋盔甲。
 Armor_C:
   Material: TROPICAL_FISH
   CustomModelData: 23
-  DisplayName: '§e銅的盔甲C'
+  DisplayName: §e銅的盔甲C
   Lore:
-  - '§f'
-  - '§f用銅所製成的西洋盔甲。'
+  - §f
+  - §f用銅所製成的西洋盔甲。
 Armor_D:
   Material: TROPICAL_FISH
   CustomModelData: 24
-  DisplayName: '§e發黑的盔甲D'
+  DisplayName: §e發黑的盔甲D
   Lore:
-  - '§f'
-  - '§f貝潮風與海洋侵蝕發黑的西洋盔甲'
-  - '§f。穿上去之後讓你渾身散發男人味'
-  - '§f...(捏鼻)'
+  - §f
+  - §f貝潮風與海洋侵蝕發黑的西洋盔甲
+  - §f。穿上去之後讓你渾身散發男人味
+  - §f...(捏鼻)
 Coffin_A:
   Material: TROPICAL_FISH
   CustomModelData: 29
-  DisplayName: '§e金色的棺材A'
+  DisplayName: §e金色的棺材A
   Lore:
-  - '§f'
-  - '§f用黃金所製成的棺材。裡面或許會'
-  - '§f放入寶物。'
+  - §f
+  - §f用黃金所製成的棺材。裡面或許會
+  - §f放入寶物。
 Coffin_B:
   Material: TROPICAL_FISH
   CustomModelData: 30
-  DisplayName: '§e銀色的棺材B'
+  DisplayName: §e銀色的棺材B
   Lore:
-  - '§f'
-  - '§f用銀所製成的棺材。裡面或許會放'
-  - '§f入寶物。'
+  - §f
+  - §f用銀所製成的棺材。裡面或許會放
+  - §f入寶物。
 Coffin_C:
   Material: TROPICAL_FISH
   CustomModelData: 31
-  DisplayName: '§e白色的棺材C'
+  DisplayName: §e白色的棺材C
   Lore:
-  - '§f'
-  - '§f神聖的棺材。隨便打開的話感感覺'
-  - '§f好像遭到報應。'
+  - §f
+  - §f神聖的棺材。隨便打開的話感感覺
+  - §f好像遭到報應。
 Coffin_D:
   Material: TROPICAL_FISH
   CustomModelData: 32
-  DisplayName: '§e棺材D'
+  DisplayName: §e棺材D
   Lore:
-  - '§f'
-  - '§f平凡的棺材。一想到裡面可能會有'
-  - '§f些■什麼■，就還是不要打開吧...!?'
+  - §f
+  - §f平凡的棺材。一想到裡面可能會有
+  - §f些■什麼■，就還是不要打開吧...!?
 Whale_S:
   Material: TROPICAL_FISH
   CustomModelData: 45
-  DisplayName: '§e金色的鯨魚S'
+  DisplayName: §e金色的鯨魚S
   Lore:
-  - '§f'
-  - '§f閃著金色光芒的鯨魚。近海的主人'
-  - '§f，因為閃著金光，所以很容易發現。'
+  - §f
+  - §f閃著金色光芒的鯨魚。近海的主人
+  - §f，因為閃著金光，所以很容易發現。
 Whale_A:
   Material: TROPICAL_FISH
   CustomModelData: 46
-  DisplayName: '§e銀的鯨魚A'
+  DisplayName: §e銀的鯨魚A
   Lore:
-  - '§f'
-  - '§f閃著銀色光芒的鯨魚。都是銀色的'
-  - '§f讓人分不清到底哪裡是牠的肚子。'
+  - §f
+  - §f閃著銀色光芒的鯨魚。都是銀色的
+  - §f讓人分不清到底哪裡是牠的肚子。
 Whale_B:
   Material: TROPICAL_FISH
   CustomModelData: 47
-  DisplayName: '§e鯨魚B'
+  DisplayName: §e鯨魚B
   Lore:
-  - '§f'
-  - '§f總之就是很大。超大的!...如果拿'
-  - '§f來當作食物，能夠吃上幾天呢?'
+  - §f
+  - §f總之就是很大。超大的!...如果拿
+  - §f來當作食物，能夠吃上幾天呢?
 Whale_C:
   Material: TROPICAL_FISH
   CustomModelData: 48
-  DisplayName: '§e受到汙染的鯨魚C'
+  DisplayName: §e受到汙染的鯨魚C
   Lore:
-  - '§f'
-  - '§f由受汙染的海域漂流過來的鯨魚。'
-  - '§f很遺憾這樣子就不能吃了耶...價'
-  - '§f值極低。'
+  - §f
+  - §f由受汙染的海域漂流過來的鯨魚。
+  - §f很遺憾這樣子就不能吃了耶...價
+  - §f值極低。
 TreasureChest_S:
   Material: TROPICAL_FISH
   CustomModelData: 57
-  DisplayName: '§e寶箱S'
+  DisplayName: §e寶箱S
   Lore:
-  - '§f'
-  - '§f被認為是有名的海盜所留下來的寶'
-  - '§f箱。'
-
+  - §f
+  - §f被認為是有名的海盜所留下來的寶
+  - §f箱。
 Different_Dimensional_Tools:
   Material: TROPICAL_FISH
   CustomModelData: 58
-  DisplayName: '§e異次元工具'
+  DisplayName: §e異次元工具
   Lore:
-  - '§f'
-  - '§f讓人不禁覺得這工具不該於此存在'
-  - '§f，不可思議又神秘的工具組。好像'
-  - '§f能拿來修理東西。'
-Broken_Fishing_Rod:
-  Material: TROPICAL_FISH
-  CustomModelData: 59
-  DisplayName: '§e壞掉的釣竿'
-  Lore:
-  - '§f'
-  - '§f斷成兩半的釣竿，這個狀態下只是'
-  - '§f件垃圾。'
+  - §f
+  - §f讓人不禁覺得這工具不該於此存在
+  - §f，不可思議又神秘的工具組。好像
+  - §f能拿來修理東西。
 Broken_Fishing_Rod:
   Material: TROPICAL_FISH
   CustomModelData: 60
-  DisplayName: '§e食人鯊的鰭'
+  DisplayName: §e食人鯊的鰭
   Lore:
-  - '§f'
-  - '§f食人鯊的銳利背鰭。可以做為素材'
-  - '§f來使用。'
+  - §f
+  - §f食人鯊的銳利背鰭。可以做為素材
+  - §f來使用。
 Teeth_Man_Eater:
   Material: TROPICAL_FISH
   CustomModelData: 61
-  DisplayName: '§e食人鯊的牙齒'
+  DisplayName: §e食人鯊的牙齒
   Lore:
-  - '§f'
-  - '§f咬碎許多人類的可怕牙齒。可以做'
-  - '§f為素材來使用。'
-
-
-
-
-
+  - §f
+  - §f咬碎許多人類的可怕牙齒。可以做
+  - §f為素材來使用。

@@ -1,0 +1,20 @@
+Hairpin2:
+  Material: Brown_Dye
+  CustomModelData: 2
+  DisplayName: §e髮夾
+  Lore:
+  - §f
+  - '§f類型: 防具-飾品'
+Hairpin:
+  Material: Brown_Dye
+  CustomModelData: 1
+  DisplayName: §e髮夾
+  Lore:
+  - §f
+  - '§f類型: 防具-飾品'
+  - §f
+  - §f物理攻擊+30
+  - §f
+  - §f固定頭髮的道具。仔細看的
+  - §f話，可以插某種物品的裝飾
+  - §f品。

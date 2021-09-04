@@ -1,0 +1,23 @@
+Rod:
+  Material: Orange_Dye
+  CustomModelData: 1
+  DisplayName: §e
+  Lore:
+  - §f
+  - §f部位:武器-法杖
+  - §f
+  - §f法術傷害加成+21%
+  - §f攻擊速度+4
+  - §f
+  - §f樂園團製作的杖。是為新手魔
+  - §f法師準備的基本物品。
+Magician_ROD:
+  Material: Orange_Dye
+  CustomModelData: 5
+  DisplayName: §e法杖
+  DisableAttack: true
+  CoolDown:
+    LeftClick: '&self_attr_Attack_Speed_Core&'
+  Action:
+  - null:Action[Action=Magician_Shooting] ~LeftClickAir
+  - null:Action[Action=Magician_Shooting] ~LeftClickBlock

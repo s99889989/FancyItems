@@ -1,0 +1,13 @@
+Axe:
+  Material: Purple_Dye
+  CustomModelData: 1
+  DisplayName: §e斧
+  Lore:
+  - §f
+  - '§f類型: 武器-斧'
+  - §f
+  - §f物理攻擊+30
+  - §f攻擊速度+4
+  - §f
+  - §f簡單的使用方法，方便任何人
+  - §f使用的斧。

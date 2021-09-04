@@ -9,7 +9,8 @@ import com.daxton.fancycore.api.gui.item.GuiItem;
 import com.daxton.fancyitmes.config.FileConfig;
 import com.daxton.fancyitmes.gui.button.action.MainAction;
 import com.daxton.fancyitmes.gui.button.attributes.AttrEditMain;
-import com.daxton.fancyitmes.gui.button.custom.CustomValue;
+import com.daxton.fancyitmes.gui.button.custom.CustomList;
+import com.daxton.fancyitmes.gui.button.custom.CustomTypeList;
 import com.daxton.fancyitmes.gui.button.item.edit.BreakSwitch;
 import com.daxton.fancyitmes.gui.button.item.edit.ChatEdit;
 import com.daxton.fancyitmes.gui.button.item.edit.FlagSwitch;
@@ -122,10 +123,10 @@ public class EditItem implements GuiAction {
 
 		//自訂值
 		ItemStack customItem = GuiItem.valueOf(player, languageConfig,"Gui.EditItem.CustomAttrs.Main");
-		GuiEditItem.loreInsert(customItem, "{custonvalue}", CustomValue.getCustomList(player));
+		GuiEditItem.loreInsert(customItem, "{custonvalue}", CustomList.getCustomList(player));
 		GuiButton customAttrsButton = GuiButton.ButtonBuilder.getInstance().
 			setItemStack(customItem).
-			setGuiAction(new CustomValue(player, gui)).build();
+			setGuiAction(new CustomTypeList(player, gui)).build();
 		gui.setButton(customAttrsButton, 4, 2);
 		//動作
 		ItemStack actionItem = GuiItem.valueOf(player, languageConfig,"Gui.EditItem.Action.Main");

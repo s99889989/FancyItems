@@ -1,0 +1,19 @@
+FoxTail2:
+  Material: Scute
+  CustomModelData: 1
+  DisplayName: §e狐狸尾巴
+  Lore:
+  - §f
+  - '§f類型: 防具-尾部'
+FoxTail:
+  Material: Scute
+  CustomModelData: 1
+  DisplayName: §e狐狸尾巴
+  Lore:
+  - §f
+  - '§f類型: 防具-尾部'
+  - §f
+  - §f閃避機率+5%
+  - §f火焰傷害減免+10%
+  - §f
+  - §f狐狸的尾巴。

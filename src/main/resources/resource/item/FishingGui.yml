@@ -1,82 +1,78 @@
-0:
+'0':
   Material: Gunpowder
   CustomModelData: 10
-  DisplayName: '§e0'
+  DisplayName: §e0
   Lore:
-  - '§f0'
-1:
+  - §f0
+'1':
   Material: Gunpowder
   CustomModelData: 1
-  DisplayName: '§e1'
+  DisplayName: §e1
   Lore:
-  - '§f1'
-2:
+  - §f1
+'2':
   Material: Gunpowder
   CustomModelData: 2
-  DisplayName: '§e2'
+  DisplayName: §e2
   Lore:
-  - '§f2'
-3:
+  - §f2
+'3':
   Material: Gunpowder
   CustomModelData: 3
-  DisplayName: '§e3'
+  DisplayName: §e3
   Lore:
-  - '§f3'
-4:
+  - §f3
+'4':
   Material: Gunpowder
   CustomModelData: 4
-  DisplayName: '§e4'
+  DisplayName: §e4
   Lore:
-  - '§f4'
-5:
+  - §f4
+'5':
   Material: Gunpowder
   CustomModelData: 5
-  DisplayName: '§e5'
+  DisplayName: §e5
   Lore:
-  - '§f5'
-6:
+  - §f5
+'6':
   Material: Gunpowder
   CustomModelData: 6
-  DisplayName: '§e6'
+  DisplayName: §e6
   Lore:
-  - '§f6'
-7:
+  - §f6
+'7':
   Material: Gunpowder
   CustomModelData: 7
-  DisplayName: '§e7'
+  DisplayName: §e7
   Lore:
-  - '§f7'
-8:
+  - §f7
+'8':
   Material: Gunpowder
   CustomModelData: 8
-  DisplayName: '§e8'
+  DisplayName: §e8
   Lore:
-  - '§f8'
-9:
+  - §f8
+'9':
   Material: Gunpowder
   CustomModelData: 9
-  DisplayName: '§e9'
+  DisplayName: §e9
   Lore:
-  - '§f9'
+  - §f9
 FishingOpenBag:
   Material: Gunpowder
   CustomModelData: 13
-  DisplayName: '§e打開包包'
+  DisplayName: §e打開包包
   Lore:
-  - '§f打開包包'
+  - §f打開包包
 FishingCloseBag:
   Material: Gunpowder
   CustomModelData: 12
-  DisplayName: '§e關閉包包'
+  DisplayName: §e關閉包包
   Lore:
-  - '§f關閉包包'
+  - §f關閉包包
 FishingItemGet:
   Material: Gunpowder
   CustomModelData: 11
-  DisplayName: '§e獲取漁獲'
+  DisplayName: §e獲取漁獲
   Lore:
-  - '§f獲取漁獲'
-
-
-
-
+  - §f獲取漁獲

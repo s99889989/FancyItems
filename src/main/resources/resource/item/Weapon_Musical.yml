@@ -1,0 +1,14 @@
+Pipa:
+  Material: Cyan_Dye
+  CustomModelData: 1
+  DisplayName: §e琵琶
+  Lore:
+  - §f
+  - '§f類型: 武器-樂器'
+  - §f
+  - §f物理攻擊+144
+  - §f智力+2
+  - §f靈巧+2
+  - §f魔法上限+100
+  - §f生命上限+5%
+  - §fSP恢復速度+10%

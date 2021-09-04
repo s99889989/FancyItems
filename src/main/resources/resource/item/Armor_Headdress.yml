@@ -1,5 +1,19 @@
-head:
-  Material: IRON_HELMET
-  DisplayName: 測試用頭盔
-  CustomAttrs:
-  - '§7物理攻擊 : 10'
+HairBand2:
+  Material: Green_Dye
+  CustomModelData: 1
+  DisplayName: §e髮箍
+  Lore:
+  - §f
+  - '§f類型: 防具-頭飾'
+HairBand:
+  Material: Green_Dye
+  CustomModelData: 1
+  DisplayName: §e髮箍
+  Lore:
+  - §f
+  - '§f類型: 防具-頭飾'
+  - §f
+  - §f物理防禦+5
+  - §f
+  - §f為了長髮族群固定頭髮時，所
+  - §f使用的髮圈。

@@ -38,9 +38,7 @@ public class MainCommand implements CommandExecutor {
                 }
                 FancyItems.fancyItems.getLogger().info(languageConfig.getString("LogMessage.Reload"));
             }
-            if(args[0].equalsIgnoreCase("reload")){
 
-            }
         }
 
         if(args.length == 1 && args[0].equalsIgnoreCase("edit")) {

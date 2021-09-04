@@ -1,0 +1,68 @@
+Buckler2:
+  Material: Blue_Dye
+  CustomModelData: 1
+  DisplayName: §e圓盾
+  Lore:
+  - §f
+  - '§f類型: 防具-副手'
+  CustomValue:
+    Physical_Attack_Multiplier: '30'
+Buckler:
+  Material: Blue_Dye
+  CustomModelData: 1
+  DisplayName: §e圓盾
+  Lore:
+  - §f
+  - '§f類型: 防具-副手'
+  - §f
+  - §f物理防禦+28
+  - §f
+  - §f製作簡單且方便使用,所以普
+  - §f遍使用的圓形盾牌。
+AdventurerShield:
+  Material: Blue_Dye
+  CustomModelData: 2
+  DisplayName: §e冒險者盾牌
+  Lore:
+  - §f
+  - '§f類型: 防具-副手'
+  - §f
+  - §f物理防禦+37
+  - §f
+  - §f冒險者圓盾，一個普通的盾
+  - §f牌。
+Scutum:
+  Material: Blue_Dye
+  CustomModelData: 3
+  DisplayName: §e塔盾
+  Lore:
+  - §f
+  - '§f類型: 防具-副手'
+  - §f
+  - §f物理防禦+46
+  - §f
+  - §f中世紀常用的笨重盾牌。
+CrossShield:
+  Material: Blue_Dye
+  CustomModelData: 4
+  DisplayName: §e十字鋼盾
+  Lore:
+  - §f
+  - '§f類型: 防具-副手'
+  - §f
+  - §f物理防禦+57
+  - §f
+  - §f巨大並厚實的十字形盾牌。
+MilitaryShield:
+  Material: Blue_Dye
+  CustomModelData: 5
+  DisplayName: §e軍用盾
+  Lore:
+  - §f
+  - '§f類型: 防具-副手'
+  - §f
+  - §f物理防禦+75
+  - §f
+  - §f經歷了多次戰爭不斷修改設計
+  - §f並最終定型。重視實戰效果的
+  - §f盾。

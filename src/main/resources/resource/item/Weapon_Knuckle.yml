@@ -1,0 +1,10 @@
+Gloves:
+  Material: GlowStone_Dust
+  CustomModelData: 1
+  DisplayName: §e拳套
+  Lore:
+  - §f
+  - '§f類型: 武器-拳套'
+  - §f
+  - §f物理攻擊+140
+  - §f攻擊速度+4

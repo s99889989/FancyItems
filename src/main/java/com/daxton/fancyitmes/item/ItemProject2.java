@@ -1,6 +1,7 @@
 package com.daxton.fancyitmes.item;
 
 import com.daxton.fancycore.api.item.CItem;
+import com.daxton.fancycore.manager.OtherManager;
 import com.daxton.fancyitmes.FancyItems;
 import com.daxton.fancyitmes.config.FileConfig;
 import com.daxton.fancyitmes.manager.ManagerItems;
@@ -22,22 +23,22 @@ public class ItemProject2 {
         Set<String> itemCustomAttrs = itemConfig.getConfigurationSection(itemID + ".CustomValue").getKeys(false);
         List<String> itemLore = new ArrayList<>();
 
-
+        int i = 1;
         for(String key : itemCustomAttrs){
 
             String value = itemConfig.getString(itemID+".CustomValue."+key);
-
-            String showKey = ManagerItems.custom_Value.get(key);
+            String lowKey = key.toLowerCase();
+            String showKey = OtherManager.custom_Value.get(lowKey);
             if(showKey != null && !showKey.isEmpty()){
                 itemLore.add(showKey+" : "+value);
             }
 
-            try {
-                cItem.setCustomAttrs(key, value);
+            try {//Str
+                cItem.setCustomAttrs("custom"+i+"/"+key, value);
             }catch (Exception exception){
-                //
+               //
             }
-
+            i++;
         }
         if(!itemLore.isEmpty()){
             cItem.setLore(itemLore, true);

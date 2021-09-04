@@ -1,0 +1,14 @@
+Jur:
+  Material: Slime_Ball
+  CustomModelData: 1
+  DisplayName: §e拳刃
+  Lore:
+  - §f
+  - '§f類型: 武器-拳刃'
+  - §f
+  - §f物理攻擊+72
+  - §f攻擊速度+4
+  - §f暴擊傷害+100%
+  - §f
+  - §f輕便的拳刃。不會影響使用者
+  - §f的行動。
