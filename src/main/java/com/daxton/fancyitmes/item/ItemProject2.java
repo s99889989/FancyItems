@@ -47,12 +47,12 @@ public class ItemProject2 {
     }
 
     //設定物品的左鍵CD
-    public static void setCoolDownLeftClick(CItem cItem, FileConfiguration itemConfig, String itemID){
+    public static void setCoodDownLeftClick(CItem cItem, FileConfiguration itemConfig, String itemID){
 
         try {
             String coolDownString = itemConfig.getString(itemID+".CoolDown.LeftClick");
             if(coolDownString != null)
-                cItem.setCoolDownLeftClick(Integer.parseInt(coolDownString));
+                cItem.setCoolDownLeftClick(coolDownString);
         }catch (Exception exception){
             //
         }
@@ -63,7 +63,7 @@ public class ItemProject2 {
         try {
             String coolDownString = itemConfig.getString(itemID+".CoolDown.RightClick");
             if(coolDownString != null)
-                cItem.setCoolDownRightClick(Integer.parseInt(coolDownString));
+                cItem.setCoolDownRightClick(coolDownString);
         }catch (Exception exception){
             //
         }
@@ -125,6 +125,7 @@ public class ItemProject2 {
         itemEnchantment.forEach(s -> {
             String[] strings = s.split(":");
             if(strings.length == 2){
+                //FancyItems.fancyItems.getLogger().info("測試: "+strings[0]+" : "+strings[1]);
                 try {
                     cItem.setEnchantments(strings[0], Integer.parseInt(strings[1]));
                 }catch (NumberFormatException exception){

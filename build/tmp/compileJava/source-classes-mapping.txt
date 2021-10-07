@@ -1,57 +1,85 @@
-com/daxton/fancyitmes/command/TabCommand.java
- com.daxton.fancyitmes.command.TabCommand
-com/daxton/fancyitmes/gui/button/top/SaveMenu.java
- com.daxton.fancyitmes.gui.button.top.SaveMenu
-com/daxton/fancyitmes/DependPlugins.java
- com.daxton.fancyitmes.DependPlugins
-com/daxton/fancyitmes/gui/button/top/LoadMenu.java
- com.daxton.fancyitmes.gui.button.top.LoadMenu
-com/daxton/fancyitmes/item/ItemProject.java
- com.daxton.fancyitmes.item.ItemProject
-com/daxton/fancyitmes/task/Reload.java
- com.daxton.fancyitmes.task.Reload
-com/daxton/fancyitmes/gui/button/item/edit/ItemTypListPrevious.java
- com.daxton.fancyitmes.gui.button.item.edit.ItemTypListPrevious
-com/daxton/fancyitmes/FancyItems.java
- com.daxton.fancyitmes.FancyItems
-com/daxton/fancyitmes/gui/button/item/ItemListPrevious.java
- com.daxton.fancyitmes.gui.button.item.ItemListPrevious
-com/daxton/fancyitmes/gui/button/attributes/test/SetValue.java
- com.daxton.fancyitmes.gui.button.attributes.test.SetValue
-com/daxton/fancyitmes/gui/button/item/edit/ItemTypListNext.java
- com.daxton.fancyitmes.gui.button.item.edit.ItemTypListNext
-com/daxton/fancyitmes/gui/button/item/edit/ChatEdit.java
- com.daxton.fancyitmes.gui.button.item.edit.ChatEdit
-com/daxton/fancyitmes/gui/button/top/CloseMenu.java
- com.daxton.fancyitmes.gui.button.top.CloseMenu
-com/daxton/fancyitmes/gui/button/item/ItemListNext.java
- com.daxton.fancyitmes.gui.button.item.ItemListNext
 com/daxton/fancyitmes/gui/button/attributes/SlotSwitch.java
  com.daxton.fancyitmes.gui.button.attributes.SlotSwitch
 com/daxton/fancyitmes/gui/button/action/edit/PeriodEdit.java
  com.daxton.fancyitmes.gui.button.action.edit.PeriodEdit
-com/daxton/fancyitmes/gui/button/attributes/test/SelectKey.java
- com.daxton.fancyitmes.gui.button.attributes.test.SelectKey
 com/daxton/fancyitmes/gui/button/action/edit/TriggerEdit.java
  com.daxton.fancyitmes.gui.button.action.edit.TriggerEdit
-com/daxton/fancyitmes/item/CustomItem.java
- com.daxton.fancyitmes.item.CustomItem
+com/daxton/fancyitmes/gui/button/classes/ClassesChoose.java
+ com.daxton.fancyitmes.gui.button.classes.ClassesChoose
+com/daxton/fancyitmes/gui/button/top/ToMain.java
+ com.daxton.fancyitmes.gui.button.top.ToMain
+com/daxton/fancyitmes/gui/button/action/edit/NeedSwitch.java
+ com.daxton.fancyitmes.gui.button.action.edit.NeedSwitch
+com/daxton/fancyitmes/gui/button/top/CloseMenu.java
+ com.daxton.fancyitmes.gui.button.top.CloseMenu
+com/daxton/fancyitmes/gui/button/attributes/AmountSwitch.java
+ com.daxton.fancyitmes.gui.button.attributes.AmountSwitch
+com/daxton/fancyitmes/gui/button/item/edit/ItemTypListNext.java
+ com.daxton.fancyitmes.gui.button.item.edit.ItemTypListNext
+com/daxton/fancyitmes/gui/button/item/edit/lore/RLoreEdit.java
+ com.daxton.fancyitmes.gui.button.item.edit.lore.RLoreEdit
+com/daxton/fancyitmes/gui/button/action/AddAction.java
+ com.daxton.fancyitmes.gui.button.action.AddAction
+com/daxton/fancyitmes/gui/button/action/MainAction.java
+ com.daxton.fancyitmes.gui.button.action.MainAction
+com/daxton/fancyitmes/gui/button/custom/PreviousCustom.java
+ com.daxton.fancyitmes.gui.button.custom.PreviousCustom
+com/daxton/fancyitmes/gui/button/placemodel/PlaceModelMain.java
+ com.daxton.fancyitmes.gui.button.placemodel.PlaceModelMain
+com/daxton/fancyitmes/gui/button/action/edit/NameEdit.java
+ com.daxton.fancyitmes.gui.button.action.edit.NameEdit
+com/daxton/fancyitmes/gui/button/custom/CustomTypeList.java
+ com.daxton.fancyitmes.gui.button.custom.CustomTypeList
+com/daxton/fancyitmes/gui/button/custom/ValueSet.java
+ com.daxton.fancyitmes.gui.button.custom.ValueSet
+com/daxton/fancyitmes/gui/button/top/SaveMenu.java
+ com.daxton.fancyitmes.gui.button.top.SaveMenu
+com/daxton/fancyitmes/gui/button/top/LoadMenu.java
+ com.daxton.fancyitmes.gui.button.top.LoadMenu
+com/daxton/fancyitmes/item/ItemProject.java
+ com.daxton.fancyitmes.item.ItemProject
+com/daxton/fancyitmes/gui/button/attributes/test/SetValue.java
+ com.daxton.fancyitmes.gui.button.attributes.test.SetValue
+com/daxton/fancyitmes/DependPlugins.java
+ com.daxton.fancyitmes.DependPlugins
+com/daxton/fancyitmes/gui/button/attributes/AddAttr.java
+ com.daxton.fancyitmes.gui.button.attributes.AddAttr
+com/daxton/fancyitmes/gui/button/attributes/OperationSwitch.java
+ com.daxton.fancyitmes.gui.button.attributes.OperationSwitch
+com/daxton/fancyitmes/config/FileConfig.java
+ com.daxton.fancyitmes.config.FileConfig
+com/daxton/fancyitmes/gui/button/custom/CustomList.java
+ com.daxton.fancyitmes.gui.button.custom.CustomList
+com/daxton/fancyitmes/gui/button/main/TypeNextPage.java
+ com.daxton.fancyitmes.gui.button.main.TypeNextPage
+com/daxton/fancyitmes/gui/other/ItemTypeList.java
+ com.daxton.fancyitmes.gui.other.ItemTypeList
+com/daxton/fancyitmes/gui/button/action/edit/StopSwitch.java
+ com.daxton.fancyitmes.gui.button.action.edit.StopSwitch
+com/daxton/fancyitmes/gui/button/attributes/AttrEditMain.java
+ com.daxton.fancyitmes.gui.button.attributes.AttrEditMain
+com/daxton/fancyitmes/gui/button/attributes/NameSwitch.java
+ com.daxton.fancyitmes.gui.button.attributes.NameSwitch
+com/daxton/fancyitmes/gui/button/item/edit/ChatEdit.java
+ com.daxton.fancyitmes.gui.button.item.edit.ChatEdit
+com/daxton/fancyitmes/task/Start.java
+ com.daxton.fancyitmes.task.Start
+com/daxton/fancyitmes/gui/button/attributes/test/SelectKey.java
+ com.daxton.fancyitmes.gui.button.attributes.test.SelectKey
+com/daxton/fancyitmes/gui/button/item/edit/ItemTypListPrevious.java
+ com.daxton.fancyitmes.gui.button.item.edit.ItemTypListPrevious
+com/daxton/fancyitmes/command/TabCommand.java
+ com.daxton.fancyitmes.command.TabCommand
 com/daxton/fancyitmes/gui/button/action/edit/MarkEdit.java
  com.daxton.fancyitmes.gui.button.action.edit.MarkEdit
 com/daxton/fancyitmes/manager/ManagerItems.java
  com.daxton.fancyitmes.manager.ManagerItems
 com/daxton/fancyitmes/gui/button/action/edit/CountEdit.java
  com.daxton.fancyitmes.gui.button.action.edit.CountEdit
-com/daxton/fancyitmes/gui/button/top/ToMain.java
- com.daxton.fancyitmes.gui.button.top.ToMain
-com/daxton/fancyitmes/gui/button/action/edit/NeedSwitch.java
- com.daxton.fancyitmes.gui.button.action.edit.NeedSwitch
+com/daxton/fancyitmes/gui/button/item/ItemListNext.java
+ com.daxton.fancyitmes.gui.button.item.ItemListNext
 com/daxton/fancyitmes/gui/button/action/edit/DefineEdit.java
  com.daxton.fancyitmes.gui.button.action.edit.DefineEdit
-com/daxton/fancyitmes/gui/button/attributes/AmountSwitch.java
- com.daxton.fancyitmes.gui.button.attributes.AmountSwitch
-com/daxton/fancyitmes/gui/button/item/edit/lore/RLoreEdit.java
- com.daxton.fancyitmes.gui.button.item.edit.lore.RLoreEdit
 com/daxton/fancyitmes/gui/button/action/EditAction.java
  com.daxton.fancyitmes.gui.button.action.EditAction
 com/daxton/fancyitmes/gui/button/attributes/EditAttr.java
@@ -60,46 +88,46 @@ com/daxton/fancyitmes/gui/button/attributes/DefineAttr.java
  com.daxton.fancyitmes.gui.button.attributes.DefineAttr
 com/daxton/fancyitmes/gui/button/main/TypePreviousPage.java
  com.daxton.fancyitmes.gui.button.main.TypePreviousPage
-com/daxton/fancyitmes/gui/button/action/AddAction.java
- com.daxton.fancyitmes.gui.button.action.AddAction
 com/daxton/fancyitmes/gui/MainMenu.java
  com.daxton.fancyitmes.gui.MainMenu
-com/daxton/fancyitmes/command/MainCommand.java
- com.daxton.fancyitmes.command.MainCommand
-com/daxton/fancyitmes/gui/button/custom/CustomList.java
- com.daxton.fancyitmes.gui.button.custom.CustomList
-com/daxton/fancyitmes/gui/button/action/MainAction.java
- com.daxton.fancyitmes.gui.button.action.MainAction
-com/daxton/fancyitmes/gui/button/item/edit/MaterialSet.java
- com.daxton.fancyitmes.gui.button.item.edit.MaterialSet
-com/daxton/fancyitmes/item/ItemProject2.java
- com.daxton.fancyitmes.item.ItemProject2
-com/daxton/fancyitmes/gui/button/action/edit/NameEdit.java
- com.daxton.fancyitmes.gui.button.action.edit.NameEdit
-com/daxton/fancyitmes/gui/button/attributes/NameSwitch.java
- com.daxton.fancyitmes.gui.button.attributes.NameSwitch
-com/daxton/fancyitmes/gui/button/item/edit/FlagSwitch.java
- com.daxton.fancyitmes.gui.button.item.edit.FlagSwitch
+com/daxton/fancyitmes/gui/button/disable/DisableMain.java
+ com.daxton.fancyitmes.gui.button.disable.DisableMain
+com/daxton/fancyitmes/gui/button/custom/NextCustom.java
+ com.daxton.fancyitmes.gui.button.custom.NextCustom
+com/daxton/fancyitmes/gui/button/item/ItemListPrevious.java
+ com.daxton.fancyitmes.gui.button.item.ItemListPrevious
 com/daxton/fancyitmes/gui/button/action/edit/ActionEdit.java
  com.daxton.fancyitmes.gui.button.action.edit.ActionEdit
-com/daxton/fancyitmes/gui/button/attributes/AttrEditMain.java
- com.daxton.fancyitmes.gui.button.attributes.AttrEditMain
-com/daxton/fancyitmes/gui/button/item/GetItem.java
- com.daxton.fancyitmes.gui.button.item.GetItem
-com/daxton/fancyitmes/gui/button/main/TypeNextPage.java
- com.daxton.fancyitmes.gui.button.main.TypeNextPage
-com/daxton/fancyitmes/gui/button/attributes/AddAttr.java
- com.daxton.fancyitmes.gui.button.attributes.AddAttr
-com/daxton/fancyitmes/gui/button/attributes/OperationSwitch.java
- com.daxton.fancyitmes.gui.button.attributes.OperationSwitch
-com/daxton/fancyitmes/config/FileConfig.java
- com.daxton.fancyitmes.config.FileConfig
-com/daxton/fancyitmes/task/Start.java
- com.daxton.fancyitmes.task.Start
-com/daxton/fancyitmes/gui/other/ItemTypeList.java
- com.daxton.fancyitmes.gui.other.ItemTypeList
-com/daxton/fancyitmes/gui/button/action/edit/StopSwitch.java
- com.daxton.fancyitmes.gui.button.action.edit.StopSwitch
+com/daxton/fancyitmes/FancyItems.java
+ com.daxton.fancyitmes.FancyItems
+com/daxton/fancyitmes/task/Reload.java
+ com.daxton.fancyitmes.task.Reload
+com/daxton/fancyitmes/gui/button/bullet/BulletMain.java
+ com.daxton.fancyitmes.gui.button.bullet.BulletMain
+com/daxton/fancyitmes/gui/button/durable/DurableMain.java
+ com.daxton.fancyitmes.gui.button.durable.DurableMain
+com/daxton/fancyitmes/gui/button/cd/CoolDownMain.java
+ com.daxton.fancyitmes.gui.button.cd.CoolDownMain
+com/daxton/fancyitmes/gui/button/enchantments/EnchantmentsMain.java
+ com.daxton.fancyitmes.gui.button.enchantments.EnchantmentsMain
+com/daxton/fancyitmes/gui/button/cd/CDRight.java
+ com.daxton.fancyitmes.gui.button.cd.CDRight
+com/daxton/fancyitmes/item/ItemProject2.java
+ com.daxton.fancyitmes.item.ItemProject2
+com/daxton/fancyitmes/gui/button/cd/CDLeft.java
+ com.daxton.fancyitmes.gui.button.cd.CDLeft
+com/daxton/fancyitmes/item/CustomItem.java
+ com.daxton.fancyitmes.item.CustomItem
+com/daxton/fancyitmes/gui/button/enchantments/EnchantmentsPrevious.java
+ com.daxton.fancyitmes.gui.button.enchantments.EnchantmentsPrevious
+com/daxton/fancyitmes/gui/button/enchantments/EnchantmentsLevel.java
+ com.daxton.fancyitmes.gui.button.enchantments.EnchantmentsLevel
+com/daxton/fancyitmes/gui/select/SelectItem.java
+ com.daxton.fancyitmes.gui.select.SelectItem
+com/daxton/fancyitmes/command/MainCommand.java
+ com.daxton.fancyitmes.command.MainCommand
+com/daxton/fancyitmes/gui/button/enchantments/EnchantmentsNext.java
+ com.daxton.fancyitmes.gui.button.enchantments.EnchantmentsNext
 com/daxton/fancyitmes/gui/button/main/ItemType.java
  com.daxton.fancyitmes.gui.button.main.ItemType
 com/daxton/fancyitmes/gui/button/item/edit/BreakSwitch.java
@@ -109,15 +137,21 @@ com/daxton/fancyitmes/gui/button/item/edit/lore/LoreEdit.java
 com/daxton/fancyitmes/listener/PlayerListener.java
  com.daxton.fancyitmes.listener.PlayerListener
  com.daxton.fancyitmes.listener.PlayerListener$1
-com/daxton/fancyitmes/gui/button/item/EditItem.java
- com.daxton.fancyitmes.gui.button.item.EditItem
-com/daxton/fancyitmes/gui/button/custom/NextCustom.java
- com.daxton.fancyitmes.gui.button.custom.NextCustom
-com/daxton/fancyitmes/gui/button/custom/PreviousCustom.java
- com.daxton.fancyitmes.gui.button.custom.PreviousCustom
+com/daxton/fancyitmes/gui/button/item/edit/FlagSwitch.java
+ com.daxton.fancyitmes.gui.button.item.edit.FlagSwitch
+com/daxton/fancyitmes/gui/button/item/GetItem.java
+ com.daxton.fancyitmes.gui.button.item.GetItem
+com/daxton/fancyitmes/gui/button/item/edit/MaterialSet.java
+ com.daxton.fancyitmes.gui.button.item.edit.MaterialSet
 com/daxton/fancyitmes/gui/button/custom/CustomKeyList.java
  com.daxton.fancyitmes.gui.button.custom.CustomKeyList
-com/daxton/fancyitmes/gui/button/custom/CustomTypeList.java
- com.daxton.fancyitmes.gui.button.custom.CustomTypeList
-com/daxton/fancyitmes/gui/button/custom/ValueSet.java
- com.daxton.fancyitmes.gui.button.custom.ValueSet
+com/daxton/fancyitmes/gui/button/classes/ClassesSelect.java
+ com.daxton.fancyitmes.gui.button.classes.ClassesSelect
+com/daxton/fancyitmes/gui/button/item/EditItem.java
+ com.daxton.fancyitmes.gui.button.item.EditItem
+com/daxton/fancyitmes/gui/button/classes/ClassesMain.java
+ com.daxton.fancyitmes.gui.button.classes.ClassesMain
+com/daxton/fancyitmes/gui/button/classes/LevelChoose.java
+ com.daxton.fancyitmes.gui.button.classes.LevelChoose
+com/daxton/fancyitmes/gui/button/classes/LevelChange.java
+ com.daxton.fancyitmes.gui.button.classes.LevelChange

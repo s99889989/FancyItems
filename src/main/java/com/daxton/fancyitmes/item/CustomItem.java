@@ -136,7 +136,7 @@ public class CustomItem {
         //設定物品的右鍵CD
         ItemProject2.setCoolDownRightClick(cItem, itemConfig, itemID);
         //設定物品的左鍵CD
-        ItemProject2.setCoolDownLeftClick(cItem, itemConfig, itemID);
+        ItemProject2.setCoodDownLeftClick(cItem, itemConfig, itemID);
         //設定物品禁止攻擊
         cItem.setDisableAttack(itemConfig.getBoolean(itemID+".DisableAttack"));
         //設定物品自訂屬性
